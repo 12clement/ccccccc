@@ -1,0 +1,39 @@
+{
+   "event": "PAYMENTS_CARD_REFUND_OPERATION_PROCESSED",
+   "source": "covea.cardpayments.service",
+   "correlation": {
+      "serviceCallId": "87b83f76-597c-453b-8d9e-47f854f3ff33",
+      "originatingActionId": "778b6a8c-6d10-4d9b-952a-8b1680465a6c",
+      "transactionId": "e6a04b7d-0bfc-4cd3-bb7a-30efdb34286f"
+   },
+   "eventId": "8f9ce9e9-baa1-4912-a917-01680f643b12",
+   "timestamp": "2021-03-19T09:51:29.608Z",
+   "payload": {
+      "refundId": "re_1IWezNClEhTGA1uh3ieZ2amR",
+      "transactionDate": "2021-03-19T09:51:29.000Z",
+      "value": 28862,
+      "currency": "GBP",
+      "status": "Refund success",
+      "paymentIntentsId": "pi_1IOgkLClEhTGA1uhcQvtwTZ2",
+      "externalReferences": [
+         {
+            "referenceName": "policyTermReference",
+            "referenceValue": "6da3592a-ac0e-4d64-a00a-1a58f0ee8141"
+         }
+      ],
+      "paymentReference": "393b1c4e-67fc-487d-bd1a-ab5c50fcdb16",
+      "originalPaymentReference": "31fd3806-11e1-44a9-901d-71d2c5725072",
+      "contact": {
+         "person": {}
+      },
+      "isRefund": true,
+      "provider": "Stripe",
+      "refundTransactionReference": "d3b88988-23f2-4e6d-9d3b-318357d2963c",
+      "processedDate": "2021-03-19T09:51:29.600Z",
+      "metadata": {
+         "createdBy": "Api User <s.tuhto.a1qa>",
+         "createdAt": "2021-03-19T09:51:29.600Z"
+      },
+      "reason": "Cancellation"
+   }
+}
