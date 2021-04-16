@@ -1,0 +1,34 @@
+{
+   "event":"PAYMENTS_EXTERNAL_REFUND_CREATED",
+   "source":"covea.externalpayment.service",
+   "correlation":{
+      "serviceCallId":"545206b1-62ef-4fea-9619-be682a6a1c93",
+      "originatingActionId":"{\"serviceCallId\":\"f136e7c4-4374-4117-b82d-111f22c8f8c0\",\"originatingActionId\":\"5d9c585b-4921-4ef4-8e91-71f0af0ed448\",\"transactionId\":\"fa0daa98-d2da-4776-965f-8f7809f09d04\"}"
+   },
+   "eventId":"2cb1c984-ccb5-4b22-8350-c3d169a3599e",
+   "timestamp":"2021-03-12T14:29:03.046Z",
+   "payload":{
+      "metadata":{
+         "createdBy":"piers.sunter",
+         "createdAt":"2021-03-12T14:29:03.038Z"
+      },
+      "amount":4000,
+      "currency":"GBP",
+      "description":"Cheque No - 01423",
+      "isRefund":true,
+      "reason":"RefundACredit",
+      "externalReferences":[
+         {
+            "referenceName":"policyTermReference",
+            "referenceValue":"c08f9e3d-a152-4b1b-8a01-ef07f3c43b59"
+         },
+         {
+            "referenceName":"adminPaymentReference",
+            "referenceValue":"250dc5d2-094c-4d21-ad96-a7b4ef3416a5"
+         }
+      ],
+      "status":"Completed",
+      "transactionDate":"2021-03-12T14:29:03.038Z",
+      "paymentReference":"82158cff-5dc0-4dd2-a9a5-a3e0b8d6ebd0"
+   }
+}

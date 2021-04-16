@@ -1,0 +1,68 @@
+{
+   "payload": {
+      "policyTermReference": null,
+      "bankDetails": {
+         "metadata": {
+            "createdAt": "2021-03-19T12:24:18.235Z",
+            "createdBy": null
+         },
+         "bankDetailsId": "9cb418dd-9ecd-43f6-a6d7-7bb97fd4c3bc",
+         "planId": "93964c9b-3c18-4402-b075-342a6bd2799f",
+         "accountNumber": "00046513",
+         "sortCode": "07-01-16",
+         "accountName": "Mr ALA",
+         "bankCode": "    ",
+         "bankName": " ",
+         "bankBranchTitle": " ",
+         "mandateReference": "0000000000529301",
+         "lastModified": "2021-03-19T12:24:18.235Z",
+         "mandateSequence": "01",
+         "mandateStatus": "NotStarted",
+         "tenant": {
+            "brandId": "BR0018",
+            "productId": "PMC"
+         },
+         "bankDetailsHistory": [
+            {
+               "metadata": {
+                  "createdAt": "2021-03-19T12:24:18.235Z",
+                  "createdBy": null
+               },
+               "externalReferences": [],
+               "mandateStatus": "NotStarted"
+            }
+         ],
+         "externalReferences": []
+      },
+      "_links": {
+         "Self": {
+            "href": "/payments/payment-plans/bank-details/9cb418dd-9ecd-43f6-a6d7-7bb97fd4c3bc"
+         },
+         "InstalmentPlan": {
+            "href": "/payments/payment-plans/93964c9b-3c18-4402-b075-342a6bd2799f"
+         }
+      }
+   },
+   "event": "PAYMENTS_BANKDETAILS_CREATED",
+   "schemaVersion": "1.0.0",
+   "source": "Covea.InstalmentPlans.WebApi",
+   "correlation": {
+      "originatingActionId": "9235c6bd-76c2-4baa-8a6f-7b1ac20cc29e",
+      "transactionId": "9a16fa36-fa9b-4fd2-8ee8-30bae8fb8699",
+      "brandId": null,
+      "productId": null,
+      "serviceCallId": "c1c1fe26-98a4-4687-95c7-52c5e506b3d9",
+      "parentServiceCallId": null,
+      "handledEventId": null,
+      "exceptionReference": null
+   },
+   "eventId": "a070a8d7-522e-4fe1-a388-bb52da743043",
+   "timestamp": "2021-03-19T12:24:37.4528979Z",
+   "expiry": null,
+   "filter": [
+      {
+         "name": "BRAND_ID",
+         "value": null
+      }
+   ]
+}

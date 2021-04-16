@@ -1,0 +1,36 @@
+{
+   "event": "WRITEOFF_BALANCE_CREATED",
+   "source": "covea.adminpayments.service",
+   "correlation": {
+      "serviceCallId": "554c7c5c-7810-4176-9004-8dfa9592d40c",
+      "originatingActionId": "{\"serviceCallId\":\"a68e5df7-8965-475f-8ee5-fb2396550e85\",\"originatingActionId\":\"567680a2-38d4-4c53-bbd4-1f4b87ce386d\",\"transactionId\":\"89821135-233f-44c6-bb16-60ad95dc1710\"}"
+   },
+   "eventId": "e01f05d0-2374-484a-a6da-3812b0f9dab1",
+   "timestamp": "2021-03-12T10:17:49.255Z",
+   "payload": {
+      "metadata": {
+         "createdBy": "madelaine.sandland",
+         "createdAt": "2021-03-12T10:17:49.247Z"
+      },
+      "amount": 91773,
+      "currency": "GBP",
+      "writeoffOption": "balance",
+      "transactionType": "writeoff",
+      "reason": {
+         "id": "666bc8ee-5a15-4021-8f3c-6aa3454bcac5",
+         "code": "BD",
+         "description": "Bad Debt",
+         "listName": "AmountWriteOffReason",
+         "listSource": "Iotatech"
+      },
+      "status": "Completed",
+      "externalReferences": [
+         {
+            "referenceName": "policyTermReference",
+            "referenceValue": "6b32f549-93b4-4290-8d62-13d6426d77e9"
+         }
+      ],
+      "paymentReference": "843dc045-d5d7-4445-af7a-2b314239bc10",
+      "transactionDate": "2021-03-12T10:17:49.247Z"
+   }
+}

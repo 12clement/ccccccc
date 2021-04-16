@@ -1,0 +1,2518 @@
+{
+  "payload": {
+    "policyDetails": {
+      "risks": [
+        {
+          "coverStartDateTime": "2021-03-12T14:58:00.000Z",
+          "coverEndDateTime": "2022-03-10T23:59:00.000Z",
+          "inceptionDateTime": "2021-03-11T14:38:05.381Z",
+          "coverType": "1",
+          "renewalDateTime": "2022-03-11T00:01:00.000Z",
+          "MTARiskType": "New",
+          "hasAdversePolicyAction": false,
+          "proposer": {
+            "communications": [
+              {
+                "method": "Email",
+                "details": "ian.jones@iotatech.co.uk"
+              }
+            ],
+            "person": {
+              "dateOfBirth": "1984-12-12",
+              "dateOfResidency": "1984-12-12",
+              "firstNames": "Serena",
+              "isHomeOwner": true,
+              "isUKResidentFromBirth": true,
+              "lastName": "Aksu",
+              "maritalStatus": {
+                "id": "dd370f74-356b-4127-9a3d-53e8b0ed3e28",
+                "code": "M",
+                "description": "Married",
+                "listName": "MaritalStatus",
+                "listSource": "Iotatech"
+              },
+              "title": {
+                "id": "afa253b0-450b-48fa-bd5c-ae06644f45fe",
+                "code": "007",
+                "description": "Dr",
+                "listName": "Title",
+                "listSource": "Iotatech"
+              },
+              "personReference": "4b37c59a-3717-47f1-b8d2-49e104ed0a34",
+              "creditScores": [
+                {
+                  "scoreValue": 0.68024605628471,
+                  "scoreType": "Ad",
+                  "scoreCreationDate": "2021-03-11"
+                },
+                {
+                  "scoreValue": 1.0184404613894,
+                  "scoreType": "Pd",
+                  "scoreCreationDate": "2021-03-11"
+                },
+                {
+                  "scoreValue": 1.0470268146782,
+                  "scoreType": "Pi",
+                  "scoreCreationDate": "2021-03-11"
+                },
+                {
+                  "scoreValue": 0.882145789182,
+                  "scoreType": "FrthAndWs",
+                  "scoreCreationDate": "2021-03-11"
+                },
+                {
+                  "scoreValue": 1.0470268146782,
+                  "scoreType": "LG",
+                  "scoreCreationDate": "2021-03-11"
+                },
+                {
+                  "scoreValue": 699,
+                  "scoreType": "JfGauge",
+                  "scoreCreationDate": "2021-03-11"
+                },
+                {
+                  "scoreValue": 700,
+                  "scoreType": "PrivateJfGauge",
+                  "scoreCreationDate": "2021-03-11"
+                }
+              ],
+              "creditReferenceAssignedId": "1189489532",
+              "isDeceased": false,
+              "gender": {
+                "listSource": "Iotatech",
+                "listName": "Sex",
+                "code": "M",
+                "description": "Male",
+                "id": "3C6E533D-FFDC-43BF-AEC0-87A0A340EA9D"
+              },
+              "numberOfDependentChildren": 0
+            },
+            "postalAddress": {
+              "addressReference": "GB|RM|A|230396",
+              "UDPRN": "230399",
+              "addressLine1": "66 Thirlestane, Lemsford Road",
+              "addressLine2": "",
+              "addressLine3": "",
+              "buildingName": "Thirlestane",
+              "companyName": "",
+              "dataLevel": "Premise",
+              "district": "",
+              "poBoxNumber": "",
+              "label": "66 Thirlestane\nLemsford Road\nST. ALBANS\nAL1 3PD\nUNITED KINGDOM",
+              "postcode": "AL1 3PD",
+              "townCity": "St. Albans",
+              "street": "Lemsford Road",
+              "subBuilding": "66",
+              "secondaryStreet": "",
+              "buildingType": "Residential",
+              "county": "Hertfordshire",
+              "constituency": "Hertfordshire",
+              "buildingNumber": ""
+            }
+          },
+          "motorRisk": {
+            "vehicleValue": 300000,
+            "nighttimeNotInUseLocationType": {
+              "id": "ae3119df-2b93-4801-9a66-147b05199a03",
+              "code": "1",
+              "description": "In A Locked Garage",
+              "listName": "VehicleStorage",
+              "listSource": "Iotatech"
+            },
+            "annualTotalMileage": 2000,
+            "vehicleOwnership": {
+              "isPurchased": true,
+              "dateOfPurchase": "2021-02-01",
+              "ownerType": {
+                "id": "534a63b8-4bbf-4cbf-ac47-7ec501063b9c",
+                "code": "1",
+                "description": "Proposer",
+                "listName": "VehicleOwnerKeeper",
+                "listSource": "Iotatech"
+              },
+              "keeperType": {
+                "id": "534a63b8-4bbf-4cbf-ac47-7ec501063b9c",
+                "code": "1",
+                "description": "Proposer",
+                "listName": "VehicleOwnerKeeper",
+                "listSource": "Iotatech"
+              },
+              "vehicle": {
+                "dateOfFirstRegistration": "2016-03-24",
+                "engineCapacity": 1598,
+                "fuelType": {
+                  "id": "47bced18-ba24-49a2-94ac-6b87b48f6525",
+                  "code": "P",
+                  "description": "Petrol",
+                  "listName": "VehicleFuelType",
+                  "listSource": "Iotatech"
+                },
+                "hasTrackingDevice": true,
+                "isImported": false,
+                "make": "VAUXHALL",
+                "model": "ASTRA LIMITED EDITION",
+                "registration": "WN16FLR",
+                "securityDeviceType": {
+                  "id": "1469eec9-2c3c-4175-8f5c-de864ebfc8e4",
+                  "code": "g_MAN",
+                  "description": "Manufacturer Fitted",
+                  "listName": "VehSecurityType",
+                  "listSource": "Iotatech"
+                },
+                "transmissionType": {
+                  "id": "7707db18-1b88-4418-ba78-88cfd337e0d5",
+                  "code": "M",
+                  "description": "Manual",
+                  "listName": "VehicleTransmission",
+                  "listSource": "Iotatech"
+                },
+                "vehicleCode": "52324901",
+                "yearOfManufacture": 2016,
+                "modelStart": "VAUXHALL_ASTRA",
+                "modelVariant": "LIMITED EDITION",
+                "numberOfDoors": 5,
+                "vehicleReference": "48b5d14c-a268-4995-b346-350ed7d427b7",
+                "externalAgencyData": true,
+                "isLeftHandDrive": false
+              }
+            },
+            "mainDriver": {
+              "vehicleUseType": {
+                "id": "c0b9b878-7719-4124-9ffb-c2e1e42a1090",
+                "code": "g_7",
+                "description": "Social, Domestic And Pleasure Only",
+                "listName": "VehicleUse",
+                "listSource": "Iotatech"
+              },
+              "relationshipToProposerType": {
+                "id": "b9326d27-6dcb-48d6-ad90-31f12b443293",
+                "code": "P",
+                "description": "Proposer",
+                "listName": "RelationshipWeb",
+                "listSource": "Iotatech"
+              },
+              "useOfOtherVehiclesType": {
+                "id": "4bbd1c71-7f9b-4a50-ace9-09168df046e9",
+                "code": "NO",
+                "description": "No",
+                "listName": "DirectOtherVehicles",
+                "listSource": "Iotatech"
+              },
+              "numberOfOtherVehicles": 0,
+              "driver": {
+                "driverReference": "19d6f5ae-000a-4ae9-882f-343c58f84537",
+                "licenceType": {
+                  "id": "8714486a-10c5-4dd4-b59c-7c7dae5d62fc",
+                  "code": "F",
+                  "description": "UK Full",
+                  "listName": "DriverLicenceType",
+                  "listSource": "Iotatech"
+                },
+                "monthsLicenceHeld": {
+                  "id": "0891f0b3-1c5d-443b-8fb2-63a9486b6d17",
+                  "code": "3",
+                  "description": "3",
+                  "listName": "DirectMonths",
+                  "listSource": "Iotatech"
+                },
+                "hasNonMotorConvictions": false,
+                "yearsLicenceHeld": {
+                  "id": "a0673b84-e4db-4b3a-b89b-93c14b066a54",
+                  "code": "10",
+                  "description": "10",
+                  "listName": "DirectLicLengthYears",
+                  "listSource": "Iotatech"
+                },
+                "person": {
+                  "dateOfBirth": "1984-12-12",
+                  "dateOfResidency": "1984-12-12",
+                  "firstNames": "Serena",
+                  "isUKResidentFromBirth": true,
+                  "lastName": "Aksu",
+                  "personReference": "4b37c59a-3717-47f1-b8d2-49e104ed0a34",
+                  "isHomeOwner": true,
+                  "maritalStatus": {
+                    "id": "dd370f74-356b-4127-9a3d-53e8b0ed3e28",
+                    "code": "M",
+                    "description": "Married",
+                    "listName": "MaritalStatus",
+                    "listSource": "Iotatech"
+                  },
+                  "title": {
+                    "id": "afa253b0-450b-48fa-bd5c-ae06644f45fe",
+                    "code": "007",
+                    "description": "Dr",
+                    "listName": "Title",
+                    "listSource": "Iotatech"
+                  },
+                  "gender": {
+                    "listSource": "Iotatech",
+                    "listName": "Sex",
+                    "code": "M",
+                    "description": "Male",
+                    "id": "3C6E533D-FFDC-43BF-AEC0-87A0A340EA9D"
+                  },
+                  "numberOfDependentChildren": 0
+                },
+                "employments": [
+                  {
+                    "businessType": {
+                      "id": "8c01dcd1-1c66-4a97-949f-f8d1a54df49a",
+                      "code": "190",
+                      "description": "Actuarial Consultancy",
+                      "listName": "Business",
+                      "listSource": "Iotatech"
+                    },
+                    "occupation": {
+                      "id": "683f1702-82da-4639-aa5e-192cb579a5bf",
+                      "code": "391",
+                      "description": "Accommodation Officer",
+                      "listName": "Occupation",
+                      "listSource": "Iotatech"
+                    },
+                    "employmentStatusType": {
+                      "id": "78b3e9c8-3792-4c7f-aa35-010050f26b5c",
+                      "code": "E",
+                      "description": "Employed",
+                      "listName": "EmploymentType",
+                      "listSource": "Iotatech"
+                    },
+                    "isFullTime": true,
+                    "isMainEmployment": true
+                  }
+                ],
+                "isDeceased": false,
+                "medicalConditionType": {
+                  "listSource": "Iotatech",
+                  "listName": "MedicalRestrictions",
+                  "code": "No",
+                  "description": "No",
+                  "id": "670C20D8-BD28-4277-9B2B-554BB45A7382"
+                },
+                "dvlaDataIndicator": false,
+                "drivingQualificationsType": {
+                  "listSource": "Iotatech",
+                  "listName": "DriverQualification",
+                  "code": "g_NO",
+                  "description": "No",
+                  "id": "35EE1D85-C36A-4A08-AB08-F0EC6785D4CA"
+                },
+                "selfDeclaredReason": {
+                  "listSource": "Iotatech",
+                  "listName": "SelfDeclareReason",
+                  "code": "008",
+                  "description": "Data Capture Does Not Support DVLA Processing",
+                  "id": "1BDBBAB4-A8D8-4952-B7B9-BC46F077968B"
+                }
+              },
+              "ncd": {
+                "yearsNcd": {
+                  "id": "45ffc3a5-e823-412e-9db7-8c85155afdb5",
+                  "code": "4",
+                  "description": "4",
+                  "listName": "NoClaimsBonus",
+                  "listSource": "Iotatech"
+                },
+                "isProtected": false,
+                "validationStatus": {
+                  "listSource": "Iotatech",
+                  "listName": "DocumentValidation",
+                  "code": "NR",
+                  "description": "Not Required",
+                  "id": "e9221bed-c4f4-4860-93a5-0612b8e29658"
+                }
+              }
+            },
+            "compulsoryExcess": 15000,
+            "annualBusinessMileage": 0,
+            "daytimeNotInUseLocationType": {
+              "listSource": "Iotatech",
+              "listName": "VehicleStorage",
+              "code": "E",
+              "description": "In A Work Car Park",
+              "id": "4CE3E694-345A-4CB0-A176-D5DE3CC30F8B"
+            },
+            "postcodeKeptAt": "AL1 3PD"
+          }
+        },
+        {
+          "coverStartDateTime": "2021-03-11T14:37:00.000Z",
+          "coverEndDateTime": "2022-03-10T23:59:00.000Z",
+          "inceptionDateTime": "2021-03-11T14:38:05.381Z",
+          "coverType": "1",
+          "renewalDateTime": "2022-03-11T00:01:00.000Z",
+          "MTARiskType": "Current",
+          "hasAdversePolicyAction": false,
+          "proposer": {
+            "communications": [
+              {
+                "method": "Email",
+                "details": "ian.jones@iotatech.co.uk"
+              }
+            ],
+            "person": {
+              "dateOfBirth": "1984-12-12",
+              "dateOfResidency": "1984-12-12",
+              "firstNames": "Serena",
+              "isHomeOwner": true,
+              "isUKResidentFromBirth": true,
+              "lastName": "Aksu",
+              "maritalStatus": {
+                "id": "dd370f74-356b-4127-9a3d-53e8b0ed3e28",
+                "code": "M",
+                "description": "Married",
+                "listName": "MaritalStatus",
+                "listSource": "Iotatech"
+              },
+              "title": {
+                "id": "afa253b0-450b-48fa-bd5c-ae06644f45fe",
+                "code": "007",
+                "description": "Dr",
+                "listName": "Title",
+                "listSource": "Iotatech"
+              },
+              "personReference": "4b37c59a-3717-47f1-b8d2-49e104ed0a34",
+              "isDeceased": false,
+              "gender": {
+                "listSource": "Iotatech",
+                "listName": "Sex",
+                "code": "M",
+                "description": "Male",
+                "id": "3C6E533D-FFDC-43BF-AEC0-87A0A340EA9D"
+              },
+              "numberOfDependentChildren": 0,
+              "creditReferenceAssignedId": "1189489532",
+              "creditScores": [
+                {
+                  "scoreValue": 0.68024605628471,
+                  "scoreType": "Ad",
+                  "scoreCreationDate": "2021-03-11"
+                },
+                {
+                  "scoreValue": 1.0184404613894,
+                  "scoreType": "Pd",
+                  "scoreCreationDate": "2021-03-11"
+                },
+                {
+                  "scoreValue": 1.0470268146782,
+                  "scoreType": "Pi",
+                  "scoreCreationDate": "2021-03-11"
+                },
+                {
+                  "scoreValue": 0.882145789182,
+                  "scoreType": "FrthAndWs",
+                  "scoreCreationDate": "2021-03-11"
+                },
+                {
+                  "scoreValue": 1.0470268146782,
+                  "scoreType": "LG",
+                  "scoreCreationDate": "2021-03-11"
+                },
+                {
+                  "scoreValue": 699,
+                  "scoreType": "JfGauge",
+                  "scoreCreationDate": "2021-03-11"
+                },
+                {
+                  "scoreValue": 700,
+                  "scoreType": "PrivateJfGauge",
+                  "scoreCreationDate": "2021-03-11"
+                }
+              ]
+            },
+            "postalAddress": {
+              "addressReference": "GB|RM|A|230396",
+              "UDPRN": "230399",
+              "addressLine1": "66 Thirlestane, Lemsford Road",
+              "addressLine2": "",
+              "addressLine3": "",
+              "buildingName": "Thirlestane",
+              "companyName": "",
+              "dataLevel": "Premise",
+              "district": "",
+              "poBoxNumber": "",
+              "label": "66 Thirlestane\nLemsford Road\nST. ALBANS\nAL1 3PD\nUNITED KINGDOM",
+              "postcode": "AL1 3PD",
+              "townCity": "St. Albans",
+              "street": "Lemsford Road",
+              "subBuilding": "66",
+              "secondaryStreet": "",
+              "buildingType": "Residential",
+              "county": "Hertfordshire",
+              "constituency": "Hertfordshire",
+              "buildingNumber": ""
+            }
+          },
+          "motorRisk": {
+            "vehicleValue": 300000,
+            "nighttimeNotInUseLocationType": {
+              "id": "ae3119df-2b93-4801-9a66-147b05199a03",
+              "code": "1",
+              "description": "In A Locked Garage",
+              "listName": "VehicleStorage",
+              "listSource": "Iotatech"
+            },
+            "annualTotalMileage": 2000,
+            "vehicleOwnership": {
+              "isPurchased": true,
+              "dateOfPurchase": "2021-02-01",
+              "ownerType": {
+                "id": "534a63b8-4bbf-4cbf-ac47-7ec501063b9c",
+                "code": "1",
+                "description": "Proposer",
+                "listName": "VehicleOwnerKeeper",
+                "listSource": "Iotatech"
+              },
+              "keeperType": {
+                "id": "534a63b8-4bbf-4cbf-ac47-7ec501063b9c",
+                "code": "1",
+                "description": "Proposer",
+                "listName": "VehicleOwnerKeeper",
+                "listSource": "Iotatech"
+              },
+              "vehicle": {
+                "dateOfFirstRegistration": "2016-03-24",
+                "engineCapacity": 1598,
+                "fuelType": {
+                  "id": "47bced18-ba24-49a2-94ac-6b87b48f6525",
+                  "code": "P",
+                  "description": "Petrol",
+                  "listName": "VehicleFuelType",
+                  "listSource": "Iotatech"
+                },
+                "hasTrackingDevice": true,
+                "isImported": false,
+                "make": "VAUXHALL",
+                "model": "ASTRA LIMITED EDITION",
+                "registration": "WN16FLR",
+                "securityDeviceType": {
+                  "id": "1469eec9-2c3c-4175-8f5c-de864ebfc8e4",
+                  "code": "g_MAN",
+                  "description": "Manufacturer Fitted",
+                  "listName": "VehSecurityType",
+                  "listSource": "Iotatech"
+                },
+                "transmissionType": {
+                  "id": "7707db18-1b88-4418-ba78-88cfd337e0d5",
+                  "code": "M",
+                  "description": "Manual",
+                  "listName": "VehicleTransmission",
+                  "listSource": "Iotatech"
+                },
+                "vehicleCode": "52324901",
+                "yearOfManufacture": 2016,
+                "modelStart": "VAUXHALL_ASTRA",
+                "modelVariant": "LIMITED EDITION",
+                "numberOfDoors": 5,
+                "externalAgencyData": true,
+                "isLeftHandDrive": false
+              }
+            },
+            "mainDriver": {
+              "vehicleUseType": {
+                "id": "c0b9b878-7719-4124-9ffb-c2e1e42a1090",
+                "code": "g_7",
+                "description": "Social, Domestic And Pleasure Only",
+                "listName": "VehicleUse",
+                "listSource": "Iotatech"
+              },
+              "relationshipToProposerType": {
+                "id": "b9326d27-6dcb-48d6-ad90-31f12b443293",
+                "code": "P",
+                "description": "Proposer",
+                "listName": "RelationshipWeb",
+                "listSource": "Iotatech"
+              },
+              "useOfOtherVehiclesType": {
+                "id": "4bbd1c71-7f9b-4a50-ace9-09168df046e9",
+                "code": "NO",
+                "description": "No",
+                "listName": "DirectOtherVehicles",
+                "listSource": "Iotatech"
+              },
+              "numberOfOtherVehicles": 0,
+              "driver": {
+                "driverReference": "19d6f5ae-000a-4ae9-882f-343c58f84537",
+                "licenceType": {
+                  "id": "8714486a-10c5-4dd4-b59c-7c7dae5d62fc",
+                  "code": "F",
+                  "description": "UK Full",
+                  "listName": "DriverLicenceType",
+                  "listSource": "Iotatech"
+                },
+                "monthsLicenceHeld": {
+                  "id": "0891f0b3-1c5d-443b-8fb2-63a9486b6d17",
+                  "code": "3",
+                  "description": "3",
+                  "listName": "DirectMonths",
+                  "listSource": "Iotatech"
+                },
+                "hasNonMotorConvictions": false,
+                "yearsLicenceHeld": {
+                  "id": "a0673b84-e4db-4b3a-b89b-93c14b066a54",
+                  "code": "10",
+                  "description": "10",
+                  "listName": "DirectLicLengthYears",
+                  "listSource": "Iotatech"
+                },
+                "person": {
+                  "dateOfBirth": "1984-12-12",
+                  "dateOfResidency": "1984-12-12",
+                  "firstNames": "Serena",
+                  "isUKResidentFromBirth": true,
+                  "lastName": "Aksu",
+                  "personReference": "4b37c59a-3717-47f1-b8d2-49e104ed0a34",
+                  "isHomeOwner": true,
+                  "maritalStatus": {
+                    "id": "dd370f74-356b-4127-9a3d-53e8b0ed3e28",
+                    "code": "M",
+                    "description": "Married",
+                    "listName": "MaritalStatus",
+                    "listSource": "Iotatech"
+                  },
+                  "title": {
+                    "id": "afa253b0-450b-48fa-bd5c-ae06644f45fe",
+                    "code": "007",
+                    "description": "Dr",
+                    "listName": "Title",
+                    "listSource": "Iotatech"
+                  },
+                  "gender": {
+                    "listSource": "Iotatech",
+                    "listName": "Sex",
+                    "code": "M",
+                    "description": "Male",
+                    "id": "3C6E533D-FFDC-43BF-AEC0-87A0A340EA9D"
+                  },
+                  "numberOfDependentChildren": 0
+                },
+                "employments": [
+                  {
+                    "businessType": {
+                      "id": "8c01dcd1-1c66-4a97-949f-f8d1a54df49a",
+                      "code": "190",
+                      "description": "Actuarial Consultancy",
+                      "listName": "Business",
+                      "listSource": "Iotatech"
+                    },
+                    "occupation": {
+                      "id": "683f1702-82da-4639-aa5e-192cb579a5bf",
+                      "code": "391",
+                      "description": "Accommodation Officer",
+                      "listName": "Occupation",
+                      "listSource": "Iotatech"
+                    },
+                    "employmentStatusType": {
+                      "id": "78b3e9c8-3792-4c7f-aa35-010050f26b5c",
+                      "code": "E",
+                      "description": "Employed",
+                      "listName": "EmploymentType",
+                      "listSource": "Iotatech"
+                    },
+                    "isFullTime": true,
+                    "isMainEmployment": true
+                  }
+                ],
+                "isDeceased": false,
+                "medicalConditionType": {
+                  "listSource": "Iotatech",
+                  "listName": "MedicalRestrictions",
+                  "code": "No",
+                  "description": "No",
+                  "id": "670C20D8-BD28-4277-9B2B-554BB45A7382"
+                },
+                "dvlaDataIndicator": false,
+                "drivingQualificationsType": {
+                  "listSource": "Iotatech",
+                  "listName": "DriverQualification",
+                  "code": "g_NO",
+                  "description": "No",
+                  "id": "35EE1D85-C36A-4A08-AB08-F0EC6785D4CA"
+                },
+                "selfDeclaredReason": {
+                  "listSource": "Iotatech",
+                  "listName": "SelfDeclareReason",
+                  "code": "008",
+                  "description": "Data Capture Does Not Support DVLA Processing",
+                  "id": "1BDBBAB4-A8D8-4952-B7B9-BC46F077968B"
+                }
+              },
+              "ncd": {
+                "yearsNcd": {
+                  "id": "45ffc3a5-e823-412e-9db7-8c85155afdb5",
+                  "code": "4",
+                  "description": "4",
+                  "listName": "NoClaimsBonus",
+                  "listSource": "Iotatech"
+                },
+                "isProtected": false,
+                "validationStatus": {
+                  "listSource": "Iotatech",
+                  "listName": "DocumentValidation",
+                  "code": "NR",
+                  "description": "Not Required",
+                  "id": "e9221bed-c4f4-4860-93a5-0612b8e29658"
+                }
+              }
+            },
+            "annualBusinessMileage": 0,
+            "daytimeNotInUseLocationType": {
+              "listSource": "Iotatech",
+              "listName": "VehicleStorage",
+              "code": "E",
+              "description": "In A Work Car Park",
+              "id": "4CE3E694-345A-4CB0-A176-D5DE3CC30F8B"
+            },
+            "postcodeKeptAt": "AL1 3PD",
+            "compulsoryExcess": 15000
+          }
+        }
+      ],
+      "features": [
+        {
+          "featureType": "excess",
+          "code": "Compulsory",
+          "value": 7500,
+          "description": "Windscreen Replacement Excess - Approved Replacer",
+          "excessSection": "5",
+          "excessType": "Compulsory",
+          "addonEditable": false
+        },
+        {
+          "featureType": "excess",
+          "code": "Compulsory",
+          "value": 10000,
+          "description": "Windscreen Replacement Excess - Non Approved Replacer",
+          "excessSection": "5",
+          "excessType": "Compulsory",
+          "addonEditable": false
+        },
+        {
+          "featureType": "excess",
+          "code": "Compulsory",
+          "value": 1500,
+          "description": "Windscreen Repair Excess - Approved Repairer",
+          "excessSection": "51",
+          "excessType": "Compulsory",
+          "addonEditable": false
+        },
+        {
+          "featureType": "excess",
+          "code": "Compulsory",
+          "value": 2500,
+          "description": "Windscreen Repair Excess - Non Approved Repairer",
+          "excessSection": "51",
+          "excessType": "Compulsory",
+          "addonEditable": false
+        },
+        {
+          "featureType": "excess",
+          "code": "Compulsory",
+          "value": 15000,
+          "description": "Accidental Damage, Malicious Damage, Fire And Theft Excess",
+          "excessSection": "A",
+          "excessType": "Compulsory",
+          "addonEditable": false
+        },
+        {
+          "featureType": "limit",
+          "code": "3",
+          "value": 999900,
+          "description": "Audio limit (manufacture fit)",
+          "addonEditable": false
+        },
+        {
+          "featureType": "limit",
+          "code": "4",
+          "value": 75000,
+          "description": "Audio limit (non-manufacture fit)",
+          "addonEditable": false
+        },
+        {
+          "featureType": "limit",
+          "code": "5",
+          "value": 999900,
+          "description": "Satellite Navigation (manufacture fit)",
+          "addonEditable": false
+        },
+        {
+          "featureType": "limit",
+          "code": "6",
+          "value": 75000,
+          "description": "Satellite Navigation (non-manufacture fit)",
+          "addonEditable": false
+        },
+        {
+          "featureType": "limit",
+          "code": "8",
+          "value": 500000,
+          "description": "Personal Accident-Limits",
+          "addonEditable": false
+        },
+        {
+          "featureType": "limit",
+          "code": "10",
+          "value": 100000,
+          "description": "Replacement Locks",
+          "addonEditable": false
+        },
+        {
+          "featureType": "limit",
+          "code": "11",
+          "value": 25000,
+          "description": "Personal belongings",
+          "addonEditable": false
+        },
+        {
+          "featureType": "limit",
+          "code": "15",
+          "value": 9000,
+          "description": "Max foreign Use",
+          "addonEditable": false
+        },
+        {
+          "featureType": "limit",
+          "code": "16",
+          "value": 2000000000,
+          "description": "Damage to TP Property",
+          "addonEditable": false
+        },
+        {
+          "featureType": "limit",
+          "code": "17",
+          "value": 500000000,
+          "description": "Legal Costs & Expenses",
+          "addonEditable": false
+        },
+        {
+          "featureType": "limit",
+          "code": "20",
+          "value": 10000,
+          "description": "Medical Expenses",
+          "addonEditable": false
+        },
+        {
+          "featureType": "limit",
+          "code": "21",
+          "value": 50000,
+          "description": "Overnight Accommodation",
+          "addonEditable": false
+        },
+        {
+          "featureType": "limit",
+          "code": "22",
+          "value": 999900,
+          "description": "Child Car Seats",
+          "addonEditable": false
+        },
+        {
+          "featureType": "endorsement",
+          "code": "117",
+          "value": 0,
+          "description": "Driving Other Cars Endorsement",
+          "longDescription": "The cover provided is outlined in the Driving Other Cars section of the Policy Booklet for you to drive private motor cars other than your vehicle. It only applies if your certificate of insurance shows that you may drive other private motor cars, you still own your vehicle (or if you are still its main driver and you told us that someone else owns your vehicle when you insured it with us), you are over 25 years of age and your occupation has no connection with the motor trade or other transport related employment. This cover does not allow use to secure the release of a motor vehicle which has been seized by, or on behalf of, any government or public authority. If you are regularly using someone else's car, you must add yourself as a named driver on their policy, as Driving Other Cars should only be used for emergencies.",
+          "addonEditable": false
+        },
+        {
+          "insurerID": {
+            "id": "e76513a8-e429-424c-82b4-69347a73f26c",
+            "code": "488",
+            "description": "Covea Insurance PLC",
+            "listName": "Insurer",
+            "listSource": "Iotatech"
+          },
+          "netPremium": 0,
+          "monthlyPremium": 213,
+          "margin": 0,
+          "premiumExcludingIPT": 0,
+          "premiumIncludingIPT": 0,
+          "IPTAmount": 0,
+          "tax": {
+            "rate": 0.12,
+            "taxType": {
+              "id": "ea799e9d-8fa4-4337-8306-094f510be017",
+              "code": "IPT",
+              "description": "Insurance Premium Tax",
+              "listName": "TaxType",
+              "listSource": "Iotatech"
+            },
+            "taxValue": 0
+          },
+          "isSelected": false,
+          "featureType": "addon",
+          "code": "RepCar",
+          "description": "Replacement Car Cover",
+          "addonEditable": true
+        },
+        {
+          "insurerID": {
+            "id": "e76513a8-e429-424c-82b4-69347a73f26c",
+            "code": "488",
+            "description": "Covea Insurance PLC",
+            "listName": "Insurer",
+            "listSource": "Iotatech"
+          },
+          "netPremium": 660,
+          "monthlyPremium": 231,
+          "margin": 1559,
+          "premiumExcludingIPT": 2219,
+          "premiumIncludingIPT": 2485,
+          "IPTAmount": 266,
+          "tax": {
+            "rate": 0.12,
+            "taxType": {
+              "id": "ea799e9d-8fa4-4337-8306-094f510be017",
+              "code": "IPT",
+              "description": "Insurance Premium Tax",
+              "listName": "TaxType",
+              "listSource": "Iotatech"
+            },
+            "taxValue": 266
+          },
+          "isSelected": true,
+          "featureType": "addon",
+          "code": "Legal",
+          "description": "Motor Legal Protection Cover",
+          "effectiveDate": "2021-03-12",
+          "addonEditable": true
+        },
+        {
+          "insurerID": {
+            "id": "0d5363ec-f953-47f5-b9a3-2bcd72c00e47",
+            "code": "g_C01",
+            "description": "RAC Ltd",
+            "listName": "Insurer",
+            "listSource": "Iotatech"
+          },
+          "netPremium": 0,
+          "monthlyPremium": 322,
+          "margin": 0,
+          "premiumExcludingIPT": 0,
+          "premiumIncludingIPT": 0,
+          "IPTAmount": 0,
+          "tax": {
+            "rate": 0.12,
+            "taxType": {
+              "id": "ea799e9d-8fa4-4337-8306-094f510be017",
+              "code": "IPT",
+              "description": "Insurance Premium Tax",
+              "listName": "TaxType",
+              "listSource": "Iotatech"
+            },
+            "taxValue": 0
+          },
+          "isSelected": false,
+          "featureType": "addon",
+          "code": "BkdRoad",
+          "description": "Breakdown: Roadside",
+          "addonEditable": true
+        },
+        {
+          "insurerID": {
+            "id": "0d5363ec-f953-47f5-b9a3-2bcd72c00e47",
+            "code": "g_C01",
+            "description": "RAC Ltd",
+            "listName": "Insurer",
+            "listSource": "Iotatech"
+          },
+          "netPremium": 0,
+          "monthlyPremium": 496,
+          "margin": 0,
+          "premiumExcludingIPT": 0,
+          "premiumIncludingIPT": 0,
+          "IPTAmount": 0,
+          "tax": {
+            "rate": 0.12,
+            "taxType": {
+              "id": "ea799e9d-8fa4-4337-8306-094f510be017",
+              "code": "IPT",
+              "description": "Insurance Premium Tax",
+              "listName": "TaxType",
+              "listSource": "Iotatech"
+            },
+            "taxValue": 0
+          },
+          "isSelected": false,
+          "featureType": "addon",
+          "code": "BkdNatRec",
+          "description": "Breakdown: Roadside & Recovery",
+          "addonEditable": true
+        },
+        {
+          "insurerID": {
+            "id": "0d5363ec-f953-47f5-b9a3-2bcd72c00e47",
+            "code": "g_C01",
+            "description": "RAC Ltd",
+            "listName": "Insurer",
+            "listSource": "Iotatech"
+          },
+          "netPremium": 0,
+          "monthlyPremium": 661,
+          "margin": 0,
+          "premiumExcludingIPT": 0,
+          "premiumIncludingIPT": 0,
+          "IPTAmount": 0,
+          "tax": {
+            "rate": 0.12,
+            "taxType": {
+              "id": "ea799e9d-8fa4-4337-8306-094f510be017",
+              "code": "IPT",
+              "description": "Insurance Premium Tax",
+              "listName": "TaxType",
+              "listSource": "Iotatech"
+            },
+            "taxValue": 0
+          },
+          "isSelected": false,
+          "featureType": "addon",
+          "code": "BkdHome",
+          "description": "Breakdown: Roadside, Recovery & At Home",
+          "addonEditable": true
+        },
+        {
+          "insurerID": {
+            "id": "0d5363ec-f953-47f5-b9a3-2bcd72c00e47",
+            "code": "g_C01",
+            "description": "RAC Ltd",
+            "listName": "Insurer",
+            "listSource": "Iotatech"
+          },
+          "netPremium": 0,
+          "monthlyPremium": 826,
+          "margin": 0,
+          "premiumExcludingIPT": 0,
+          "premiumIncludingIPT": 0,
+          "IPTAmount": 0,
+          "tax": {
+            "rate": 0.12,
+            "taxType": {
+              "id": "ea799e9d-8fa4-4337-8306-094f510be017",
+              "code": "IPT",
+              "description": "Insurance Premium Tax",
+              "listName": "TaxType",
+              "listSource": "Iotatech"
+            },
+            "taxValue": 0
+          },
+          "isSelected": false,
+          "featureType": "addon",
+          "code": "BkdEU",
+          "description": "Breakdown: Roadside, Recovery, At Home & European Motoring Assistance",
+          "addonEditable": true
+        },
+        {
+          "isSelected": true,
+          "featureType": "excess",
+          "value": 15000,
+          "description": "Accidental Damage, Malicious Damage, Fire And Theft Excess",
+          "excessSection": "A",
+          "excessType": "Voluntary",
+          "addonEditable": false
+        }
+      ],
+      "fees": [
+        {
+          "feeType": {
+            "id": "856b68b4-75d1-43a6-a2c9-8899d39cda13",
+            "code": "Canc",
+            "description": "Cancellation Fee",
+            "listName": "FeeType",
+            "listSource": "Iotatech"
+          },
+          "value": 2232,
+          "tax": {
+            "rate": 0.12,
+            "taxType": {
+              "id": "ea799e9d-8fa4-4337-8306-094f510be017",
+              "code": "IPT",
+              "description": "Insurance Premium Tax",
+              "listName": "TaxType",
+              "listSource": "Iotatech"
+            },
+            "taxValue": 268
+          },
+          "status": "Not Applied"
+        },
+        {
+          "feeType": {
+            "id": "a4695797-1635-4f3f-8027-53932188d99b",
+            "code": "CancCooledOff",
+            "description": "Cancellation Fee after cool off period",
+            "listName": "FeeType",
+            "listSource": "Iotatech"
+          },
+          "value": 4911,
+          "tax": {
+            "rate": 0.12,
+            "taxType": {
+              "id": "ea799e9d-8fa4-4337-8306-094f510be017",
+              "code": "IPT",
+              "description": "Insurance Premium Tax",
+              "listName": "TaxType",
+              "listSource": "Iotatech"
+            },
+            "taxValue": 589
+          },
+          "status": "Not Applied"
+        },
+        {
+          "feeType": {
+            "id": "3b46fce1-99e1-4189-a36e-3de66a7b40bd",
+            "code": "Admin",
+            "description": "Administration Fee",
+            "listName": "FeeType",
+            "listSource": "Iotatech"
+          },
+          "value": 0,
+          "tax": {
+            "rate": 0.12,
+            "taxType": {
+              "id": "ea799e9d-8fa4-4337-8306-094f510be017",
+              "code": "IPT",
+              "description": "Insurance Premium Tax",
+              "listName": "TaxType",
+              "listSource": "Iotatech"
+            },
+            "taxValue": 0
+          },
+          "status": "Not Applied"
+        },
+        {
+          "feeType": {
+            "id": "ff7b6603-0a27-4052-8ebe-7658abfc277b",
+            "code": "OnlineAdmin",
+            "description": "Online Administration Fee",
+            "listName": "FeeType",
+            "listSource": "Iotatech"
+          },
+          "value": 0,
+          "tax": {
+            "rate": 0.12,
+            "taxType": {
+              "id": "ea799e9d-8fa4-4337-8306-094f510be017",
+              "code": "IPT",
+              "description": "Insurance Premium Tax",
+              "listName": "TaxType",
+              "listSource": "Iotatech"
+            },
+            "taxValue": 0
+          },
+          "status": "Applied"
+        },
+        {
+          "feeType": {
+            "id": "f182f0a6-ee22-42be-90d4-faa73557cdfa",
+            "code": "Post",
+            "description": "Post Documents Fee",
+            "listName": "FeeType",
+            "listSource": "Iotatech"
+          },
+          "value": 0,
+          "tax": {
+            "rate": 0.12,
+            "taxType": {
+              "id": "ea799e9d-8fa4-4337-8306-094f510be017",
+              "code": "IPT",
+              "description": "Insurance Premium Tax",
+              "listName": "TaxType",
+              "listSource": "Iotatech"
+            },
+            "taxValue": 0
+          },
+          "status": "Not Applied"
+        }
+      ],
+      "businessProcess": {
+        "id": "3dfa33b7-1063-4987-bfe9-de987d8758b4",
+        "code": "AJ",
+        "description": "Adjustment",
+        "listName": "TransType",
+        "listSource": "Iotatech"
+      },
+      "adjustmentReasons": [
+        "ADDRESS"
+      ],
+      "isAutoRenewal": false,
+      "policyTransactionDate": "2021-03-11",
+      "propensityScores": [
+        {
+          "scoreType": {
+            "id": "e7e59d9c-09ed-434e-a35a-f903c532d5ff",
+            "code": "PLEC",
+            "description": "Propensity To Purchase Legal Expenses Cover",
+            "listName": "PropensityScores",
+            "listSource": "Iotatech"
+          },
+          "value": "0.0667220637542845"
+        },
+        {
+          "scoreType": {
+            "id": "b2f7480b-ad12-4828-a471-156e9200fe14",
+            "code": "PRVC",
+            "description": "Propensity To Purchase Replacement Vehicle Cover",
+            "listName": "PropensityScores",
+            "listSource": "Iotatech"
+          },
+          "value": "0.28128662153807"
+        },
+        {
+          "scoreType": {
+            "id": "702dc5ea-94e0-4a1b-a47f-3f3566143df8",
+            "code": "PBDCL1",
+            "description": "Propensity To Purchase Breakdown Cover Level 1",
+            "listName": "PropensityScores",
+            "listSource": "Iotatech"
+          },
+          "value": "0.0419007650439855"
+        },
+        {
+          "scoreType": {
+            "id": "19e512c4-d0e5-4352-9737-c31a6a11a7fe",
+            "code": "PBDCL2",
+            "description": "Propensity To Purchase Breakdown Cover Level 2",
+            "listName": "PropensityScores",
+            "listSource": "Iotatech"
+          },
+          "value": "0.0742786289416106"
+        },
+        {
+          "scoreType": {
+            "id": "6e5ce347-ac17-4b24-bc5a-c0bca4d95c69",
+            "code": "PBDCL3",
+            "description": "Propensity To Purchase Breakdown Cover Level 3",
+            "listName": "PropensityScores",
+            "listSource": "Iotatech"
+          },
+          "value": "0.059041987107434"
+        },
+        {
+          "scoreType": {
+            "id": "883d4a28-d3ff-4410-9444-ceaeb7fd3712",
+            "code": "PBDCL4",
+            "description": "Propensity To Purchase Breakdown Cover Level 4",
+            "listName": "PropensityScores",
+            "listSource": "Iotatech"
+          },
+          "value": "0.0133320616049045"
+        },
+        {
+          "scoreType": {
+            "id": "fab74f7d-8859-4adb-a1f1-a7f4bdc14e70",
+            "code": "PPNCD",
+            "description": "Propensity To Purchase NCD Protection",
+            "listName": "PropensityScores",
+            "listSource": "Iotatech"
+          },
+          "value": "0.0509631584068435"
+        },
+        {
+          "scoreType": {
+            "id": "2178baab-5290-46db-8881-2cb74d49d43a",
+            "code": "PBDC",
+            "description": "Propensity To Purchase Breakdown Cover",
+            "listName": "PropensityScores",
+            "listSource": "Iotatech"
+          },
+          "value": "0.190458022927207"
+        },
+        {
+          "scoreType": {
+            "id": "864d0bb8-1039-4485-8187-6c25ba3c5aad",
+            "code": "PCM",
+            "description": "Propensity To Purchase Core Motor",
+            "listName": "PropensityScores",
+            "listSource": "Iotatech"
+          },
+          "value": "0.00497"
+        },
+        {
+          "scoreType": {
+            "id": "00000000-0000-0000-0000-000000000000",
+            "code": "CANX<=14",
+            "description": "CANX<=14",
+            "listName": "PropensityScores",
+            "listSource": "Quote Adapter"
+          },
+          "value": "0.0299813790027961"
+        },
+        {
+          "scoreType": {
+            "id": "00000000-0000-0000-0000-000000000000",
+            "code": "CANX>14",
+            "description": "CANX>14",
+            "listName": "PropensityScores",
+            "listSource": "Quote Adapter"
+          },
+          "value": "0.152751591084244"
+        },
+        {
+          "scoreType": {
+            "id": "b53c309f-6a8d-4ed7-8b2a-65ce55f9fde6",
+            "code": "TMTA",
+            "description": "Propensity To Transact An MTA",
+            "listName": "PropensityScores",
+            "listSource": "Iotatech"
+          },
+          "value": "0.543363563206338"
+        },
+        {
+          "scoreType": {
+            "id": "739fefeb-ec5b-40a9-bbd3-f3e85daf0a81",
+            "code": "RN",
+            "description": "Propensity To Renew",
+            "listName": "PropensityScores",
+            "listSource": "Iotatech"
+          },
+          "value": "0.5817"
+        },
+        {
+          "scoreType": {
+            "id": "ae6112ba-1cc3-4c82-ac93-6db82407a529",
+            "code": "PAYDD",
+            "description": "Propensity To Pay By Instalments",
+            "listName": "PropensityScores",
+            "listSource": "Iotatech"
+          },
+          "value": "0.739225443125449"
+        },
+        {
+          "scoreType": {
+            "id": "d151c776-c047-4245-8554-4cc6ccd71a56",
+            "code": "PAYDFLT",
+            "description": "Propensity To Default On Payments",
+            "listName": "PropensityScores",
+            "listSource": "Iotatech"
+          },
+          "value": "0.15113"
+        },
+        {
+          "scoreType": {
+            "id": "b9854a60-8cd5-4d8d-8ea0-24bcfbe392cd",
+            "code": "USSC",
+            "description": "Propensity To Use The Self Service Centre",
+            "listName": "PropensityScores",
+            "listSource": "Iotatech"
+          },
+          "value": "0.135840890801584"
+        },
+        {
+          "scoreType": {
+            "id": "fa303d02-4b82-43de-81bf-42cf8fe551ef",
+            "code": "CLMPD",
+            "description": "Propensity To Make A Claim Of Type Property Damage",
+            "listName": "PropensityScores",
+            "listSource": "Iotatech"
+          },
+          "value": "0.04518"
+        },
+        {
+          "scoreType": {
+            "id": "d3f5e092-9f15-4c67-a12b-e78643bc8340",
+            "code": "CLMAD",
+            "description": "Propensity To Make A Claim Of Type Accident Damage",
+            "listName": "PropensityScores",
+            "listSource": "Iotatech"
+          },
+          "value": "0.02917"
+        },
+        {
+          "scoreType": {
+            "id": "61fdb1dc-23c1-44f7-a80c-940aeee72a81",
+            "code": "CLMPI",
+            "description": "Propensity To Make A Claim Of Type Personal Injury",
+            "listName": "PropensityScores",
+            "listSource": "Iotatech"
+          },
+          "value": "0.02007"
+        },
+        {
+          "scoreType": {
+            "id": "7ea803d5-45ef-45e2-82c0-55a65ded08da",
+            "code": "g_CLMFRTH",
+            "description": "Propensity To Make A Claim Of Type Fire and Theft",
+            "listName": "PropensityScores",
+            "listSource": "Iotatech"
+          },
+          "value": "0.00269"
+        },
+        {
+          "scoreType": {
+            "id": "a948e3d2-82ce-4698-bbd2-22ae998d695a",
+            "code": "g_CLMLRG",
+            "description": "Propensity To Make A Claim Of Type Large",
+            "listName": "PropensityScores",
+            "listSource": "Iotatech"
+          },
+          "value": "0.00047"
+        },
+        {
+          "scoreType": {
+            "id": "4db596ee-b943-4af6-aff4-3fb94dc3b95b",
+            "code": "g_CLMGLS",
+            "description": "Propensity To Make A Claim Of Type Glass",
+            "listName": "PropensityScores",
+            "listSource": "Iotatech"
+          },
+          "value": "0.00176"
+        },
+        {
+          "scoreType": {
+            "id": "69f4bac2-c346-415f-b4b2-ae45e9ba73a0",
+            "code": "g_CLMTHFT",
+            "description": "Propensity To Make A Claim Of Type Theft",
+            "listName": "PropensityScores",
+            "listSource": "Iotatech"
+          },
+          "value": "0.05745"
+        },
+        {
+          "scoreType": {
+            "id": "82d1e49e-2ccb-4b1d-8f72-0fc4ad40d08c",
+            "code": "UBDC",
+            "description": "Propensity To Upgrade Breakdown Cover",
+            "listName": "PropensityScores",
+            "listSource": "Iotatech"
+          },
+          "value": "0.1"
+        },
+        {
+          "scoreType": {
+            "id": "d7303437-1047-42ea-8cca-e5b71ff377c2",
+            "code": "UBDCL2",
+            "description": "Propensity To Upgrade Breakdown Cover Level 2",
+            "listName": "PropensityScores",
+            "listSource": "Iotatech"
+          },
+          "value": "0.0742786289416106"
+        },
+        {
+          "scoreType": {
+            "id": "b37b55c7-cae9-44b8-a307-9eb8d5388241",
+            "code": "UBDCL3",
+            "description": "Propensity To Upgrade Breakdown Cover Level 3",
+            "listName": "PropensityScores",
+            "listSource": "Iotatech"
+          },
+          "value": "0.059041987107434"
+        },
+        {
+          "scoreType": {
+            "id": "e6ddc97f-4a06-4e36-9ff4-deb157964fa4",
+            "code": "UBDCL4",
+            "description": "Propensity To Upgrade Breakdown Cover Level 4",
+            "listName": "PropensityScores",
+            "listSource": "Iotatech"
+          },
+          "value": "0.0133320616049045"
+        },
+        {
+          "scoreType": {
+            "id": "00000000-0000-0000-0000-000000000000",
+            "code": "NCDValProp",
+            "description": "NCDValProp",
+            "listName": "PropensityScores",
+            "listSource": "Quote Adapter"
+          },
+          "value": "0.153834884365116"
+        },
+        {
+          "scoreType": {
+            "id": "00000000-0000-0000-0000-000000000000",
+            "code": "LTV",
+            "description": "LTV",
+            "listName": "PropensityScores",
+            "listSource": "Quote Adapter"
+          },
+          "value": "114.892387982286"
+        },
+        {
+          "scoreType": {
+            "id": "00000000-0000-0000-0000-000000000000",
+            "code": "LTVY1",
+            "description": "LTVY1",
+            "listName": "PropensityScores",
+            "listSource": "Quote Adapter"
+          },
+          "value": "-48.8370351244833"
+        },
+        {
+          "scoreType": {
+            "id": "00000000-0000-0000-0000-000000000000",
+            "code": "TPEXTAX",
+            "description": "TPEXTAX",
+            "listName": "PropensityScores",
+            "listSource": "Quote Adapter"
+          },
+          "value": "734.15"
+        },
+        {
+          "scoreType": {
+            "id": "00000000-0000-0000-0000-000000000000",
+            "code": "TLVY1",
+            "description": "TLVY1",
+            "listName": "PropensityScores",
+            "listSource": "Quote Adapter"
+          },
+          "value": "0"
+        },
+        {
+          "scoreType": {
+            "id": "00000000-0000-0000-0000-000000000000",
+            "code": "TTPET",
+            "description": "TTPET",
+            "listName": "PropensityScores",
+            "listSource": "Quote Adapter"
+          },
+          "value": "1021.46"
+        },
+        {
+          "scoreType": {
+            "id": "00000000-0000-0000-0000-000000000000",
+            "code": "PTC",
+            "description": "PTC",
+            "listName": "PropensityScores",
+            "listSource": "Quote Adapter"
+          },
+          "value": "1.05"
+        },
+        {
+          "scoreType": {
+            "id": "00000000-0000-0000-0000-000000000000",
+            "code": "TClmL",
+            "description": "TClmL",
+            "listName": "PropensityScores",
+            "listSource": "Quote Adapter"
+          },
+          "value": "1"
+        },
+        {
+          "scoreType": {
+            "id": "00000000-0000-0000-0000-000000000000",
+            "code": "TCnvL",
+            "description": "TCnvL",
+            "listName": "PropensityScores",
+            "listSource": "Quote Adapter"
+          },
+          "value": "1"
+        },
+        {
+          "scoreType": {
+            "id": "00000000-0000-0000-0000-000000000000",
+            "code": "TMCCL",
+            "description": "TMCCL",
+            "listName": "PropensityScores",
+            "listSource": "Quote Adapter"
+          },
+          "value": "1"
+        },
+        {
+          "scoreType": {
+            "id": "00000000-0000-0000-0000-000000000000",
+            "code": "TCCCL",
+            "description": "TCCCL",
+            "listName": "PropensityScores",
+            "listSource": "Quote Adapter"
+          },
+          "value": "1"
+        },
+        {
+          "scoreType": {
+            "id": "00000000-0000-0000-0000-000000000000",
+            "code": "QteL",
+            "description": "QteL",
+            "listName": "PropensityScores",
+            "listSource": "Quote Adapter"
+          },
+          "value": "99"
+        },
+        {
+          "scoreType": {
+            "id": "00000000-0000-0000-0000-000000000000",
+            "code": "CRC",
+            "description": "CRC",
+            "listName": "PropensityScores",
+            "listSource": "Quote Adapter"
+          },
+          "value": "516.61"
+        },
+        {
+          "scoreType": {
+            "id": "00000000-0000-0000-0000-000000000000",
+            "code": "ClmExp",
+            "description": "ClmExp",
+            "listName": "PropensityScores",
+            "listSource": "Quote Adapter"
+          },
+          "value": "13.23"
+        },
+        {
+          "scoreType": {
+            "id": "00000000-0000-0000-0000-000000000000",
+            "code": "TRP",
+            "description": "TRP",
+            "listName": "PropensityScores",
+            "listSource": "Quote Adapter"
+          },
+          "value": "808.16"
+        },
+        {
+          "scoreType": {
+            "id": "00000000-0000-0000-0000-000000000000",
+            "code": "TLTVY5",
+            "description": "TLTVY5",
+            "listName": "PropensityScores",
+            "listSource": "Quote Adapter"
+          },
+          "value": "0"
+        },
+        {
+          "scoreType": {
+            "id": "00000000-0000-0000-0000-000000000000",
+            "code": "PPD",
+            "description": "PPD",
+            "listName": "PropensityScores",
+            "listSource": "Quote Adapter"
+          },
+          "value": "0"
+        },
+        {
+          "scoreType": {
+            "id": "00000000-0000-0000-0000-000000000000",
+            "code": "PD",
+            "description": "PD",
+            "listName": "PropensityScores",
+            "listSource": "Quote Adapter"
+          },
+          "value": "0"
+        },
+        {
+          "scoreType": {
+            "id": "00000000-0000-0000-0000-000000000000",
+            "code": "PreviousPrivateGaugeCreditScore",
+            "description": "PreviousPrivateGaugeCreditScore",
+            "listName": "PropensityScores",
+            "listSource": "Quote Adapter"
+          },
+          "value": "700"
+        },
+        {
+          "scoreType": {
+            "id": "00000000-0000-0000-0000-000000000000",
+            "code": "PreviousTotFaultAccClaims",
+            "description": "PreviousTotFaultAccClaims",
+            "listName": "PropensityScores",
+            "listSource": "Quote Adapter"
+          },
+          "value": "0"
+        },
+        {
+          "scoreType": {
+            "id": "00000000-0000-0000-0000-000000000000",
+            "code": "PreviousTotNonFaultAccClaims",
+            "description": "PreviousTotNonFaultAccClaims",
+            "listName": "PropensityScores",
+            "listSource": "Quote Adapter"
+          },
+          "value": "0"
+        },
+        {
+          "scoreType": {
+            "id": "00000000-0000-0000-0000-000000000000",
+            "code": "PreviousTotFireClaims",
+            "description": "PreviousTotFireClaims",
+            "listName": "PropensityScores",
+            "listSource": "Quote Adapter"
+          },
+          "value": "0"
+        },
+        {
+          "scoreType": {
+            "id": "00000000-0000-0000-0000-000000000000",
+            "code": "PreviousTotTheftClaims",
+            "description": "PreviousTotTheftClaims",
+            "listName": "PropensityScores",
+            "listSource": "Quote Adapter"
+          },
+          "value": "0"
+        },
+        {
+          "scoreType": {
+            "id": "00000000-0000-0000-0000-000000000000",
+            "code": "PreviousTotVandalismClaims",
+            "description": "PreviousTotVandalismClaims",
+            "listName": "PropensityScores",
+            "listSource": "Quote Adapter"
+          },
+          "value": "0"
+        },
+        {
+          "scoreType": {
+            "id": "00000000-0000-0000-0000-000000000000",
+            "code": "PreviousTotWindscreenClaims",
+            "description": "PreviousTotWindscreenClaims",
+            "listName": "PropensityScores",
+            "listSource": "Quote Adapter"
+          },
+          "value": "0"
+        },
+        {
+          "scoreType": {
+            "id": "00000000-0000-0000-0000-000000000000",
+            "code": "PreviousLatestFaultAccClaims",
+            "description": "PreviousLatestFaultAccClaims",
+            "listName": "PropensityScores",
+            "listSource": "Quote Adapter"
+          },
+          "value": "99"
+        },
+        {
+          "scoreType": {
+            "id": "00000000-0000-0000-0000-000000000000",
+            "code": "PreviousLatestNonFaultAccClaims",
+            "description": "PreviousLatestNonFaultAccClaims",
+            "listName": "PropensityScores",
+            "listSource": "Quote Adapter"
+          },
+          "value": "99"
+        },
+        {
+          "scoreType": {
+            "id": "00000000-0000-0000-0000-000000000000",
+            "code": "PreviousLatestWindscreenClaims",
+            "description": "PreviousLatestWindscreenClaims",
+            "listName": "PropensityScores",
+            "listSource": "Quote Adapter"
+          },
+          "value": "99"
+        },
+        {
+          "scoreType": {
+            "id": "00000000-0000-0000-0000-000000000000",
+            "code": "PreviousLatestConviction",
+            "description": "PreviousLatestConviction",
+            "listName": "PropensityScores",
+            "listSource": "Quote Adapter"
+          },
+          "value": "99"
+        },
+        {
+          "scoreType": {
+            "id": "00000000-0000-0000-0000-000000000000",
+            "code": "PreviousMostSevereConviction",
+            "description": "PreviousMostSevereConviction",
+            "listName": "PropensityScores",
+            "listSource": "Quote Adapter"
+          },
+          "value": "NA"
+        },
+        {
+          "scoreType": {
+            "id": "00000000-0000-0000-0000-000000000000",
+            "code": "PreviousClaimConvictionRules",
+            "description": "PreviousClaimConvictionRules",
+            "listName": "PropensityScores",
+            "listSource": "Quote Adapter"
+          },
+          "value": "N"
+        }
+      ],
+      "tenant": {
+        "brandId": "BR0018",
+        "productId": "PMC"
+      },
+      "quoteControl": {
+        "transmissionDateTime": "2021-03-11T14:59:05.000Z",
+        "system": {
+          "schemeIdentifier": "81",
+          "brokerNumber": "63572"
+        },
+        "document": {
+          "transactionType": "AJ",
+          "policyClassType": "PMC",
+          "defaultsTemplateId": "04b2b9af-f5ff-4ead-93d2-e660f8a3eb96"
+        }
+      }
+    },
+    "policyPremium": {
+      "tax": {
+        "rate": 0.12,
+        "taxType": {
+          "id": "ea799e9d-8fa4-4337-8306-094f510be017",
+          "code": "IPT",
+          "description": "Insurance Premium Tax",
+          "listName": "TaxType",
+          "listSource": "Iotatech"
+        },
+        "taxValue": 536
+      },
+      "voluntaryExcess": 15000,
+      "netPremium": 660,
+      "annualisedPremium": 74151,
+      "margin": 6023,
+      "premiumExcludingIPT": 4464,
+      "premiumIncludingIPT": 5000,
+      "IPTAmount": 536,
+      "featureProductTotalAmountIncTax": 2485,
+      "mtaCost": 7219,
+      "totalPayable": 51326,
+      "totalPayableFees": 0,
+      "totalPayableRisk": 55000,
+      "totalPayableAllAddons": 2485,
+      "directDebit": {
+        "paymentPlan": [
+          {
+            "metadata": {
+              "createdAt": "2021-03-11T15:10:24.203Z",
+              "createdBy": "y.fursa"
+            },
+            "planId": "4e05d4ee-5f67-4cbb-a7f9-bcc68149ba83",
+            "planStatus": "Live",
+            "mandateHistory": [
+
+            ],
+            "instalmentDay": 19,
+            "firstInstalmentAmount": 4131,
+            "regularInstalmentAmount": 4131,
+            "creationDate": "2021-03-11",
+            "depositAmount": 10000,
+            "dailyInterestAmount": 15,
+            "interestAmount": 6594,
+            "loanAmount": 48500,
+            "paymentPlanModel": {
+              "modelId": "2e6a6e8a-390a-4565-bffa-03b80a234cb3",
+              "modelName": "Vitality First Term Direct Debit",
+              "modelType": "InstalmentPlanModel",
+              "defaultModel": true,
+              "tenant": {
+                "brandId": "BR0018",
+                "productId": "PMC"
+              },
+              "loanType": "RACA",
+              "isActive": true,
+              "interestPercentage": 13.6,
+              "apr": 29.9,
+              "numberOfInstalments": 11,
+              "firstInstalmentOffset": 6,
+              "depositPercentage": 20,
+              "reapplicationDays": 5,
+              "isFirstTerm": true
+            },
+            "totalAmountOfCredit": 55094,
+            "totalAmountToPay": 65094,
+            "instalments": [
+              {
+                "metadata": {
+                  "createdAt": "2021-03-11T15:10:24.203Z",
+                  "createdBy": "y.fursa"
+                },
+                "instalmentNumber": 1,
+                "dueDate": "2021-03-19T00:00:00.000Z",
+                "amount": 5014,
+                "instalmentStatus": "Live",
+                "numberOfDefaults": 0,
+                "instalmentReference": "000000000050960101",
+                "instalmentHistory": [
+                  {
+                    "sortCode": "07-01-16",
+                    "accountNumber": "00021785",
+                    "accountName": "SERENA AKSU",
+                    "instalmentNumber": 1,
+                    "mandateReference": "0000000000509601",
+                    "dueDate": "2021-03-19T00:00:00.000Z",
+                    "amount": 4131,
+                    "instalmentStatus": "Live",
+                    "metadata": {
+                      "createdAt": "2021-03-11T14:38:05.585Z",
+                      "createdBy": "Yulia Fursa"
+                    }
+                  },
+                  {
+                    "sortCode": "07-01-16",
+                    "accountNumber": "00021785",
+                    "accountName": "SERENA AKSU",
+                    "instalmentNumber": 1,
+                    "mandateReference": "0000000000509601",
+                    "dueDate": "2021-03-19T00:00:00.000Z",
+                    "amount": 5014,
+                    "instalmentStatus": "Live",
+                    "metadata": {
+                      "createdAt": "2021-03-11T15:10:24.203Z",
+                      "createdBy": "y.fursa"
+                    }
+                  }
+                ]
+              },
+              {
+                "metadata": {
+                  "createdAt": "2021-03-11T15:10:24.203Z",
+                  "createdBy": "y.fursa"
+                },
+                "instalmentNumber": 2,
+                "dueDate": "2021-04-19T00:00:00.000Z",
+                "amount": 5008,
+                "instalmentStatus": "Live",
+                "numberOfDefaults": 0,
+                "instalmentReference": "000000000050960102",
+                "instalmentHistory": [
+                  {
+                    "sortCode": "07-01-16",
+                    "accountNumber": "00021785",
+                    "accountName": "SERENA AKSU",
+                    "instalmentNumber": 2,
+                    "mandateReference": "0000000000509601",
+                    "dueDate": "2021-04-19T00:00:00.000Z",
+                    "amount": 4131,
+                    "instalmentStatus": "Live",
+                    "metadata": {
+                      "createdAt": "2021-03-11T14:38:05.585Z",
+                      "createdBy": "Yulia Fursa"
+                    }
+                  },
+                  {
+                    "sortCode": "07-01-16",
+                    "accountNumber": "00021785",
+                    "accountName": "SERENA AKSU",
+                    "instalmentNumber": 2,
+                    "mandateReference": "0000000000509601",
+                    "dueDate": "2021-04-19T00:00:00.000Z",
+                    "amount": 5008,
+                    "instalmentStatus": "Live",
+                    "metadata": {
+                      "createdAt": "2021-03-11T15:10:24.203Z",
+                      "createdBy": "y.fursa"
+                    }
+                  }
+                ]
+              },
+              {
+                "metadata": {
+                  "createdAt": "2021-03-11T15:10:24.203Z",
+                  "createdBy": "y.fursa"
+                },
+                "instalmentNumber": 3,
+                "dueDate": "2021-05-19T00:00:00.000Z",
+                "amount": 5008,
+                "instalmentStatus": "Live",
+                "numberOfDefaults": 0,
+                "instalmentReference": "000000000050960103",
+                "instalmentHistory": [
+                  {
+                    "sortCode": "07-01-16",
+                    "accountNumber": "00021785",
+                    "accountName": "SERENA AKSU",
+                    "instalmentNumber": 3,
+                    "mandateReference": "0000000000509601",
+                    "dueDate": "2021-05-19T00:00:00.000Z",
+                    "amount": 4131,
+                    "instalmentStatus": "Live",
+                    "metadata": {
+                      "createdAt": "2021-03-11T14:38:05.585Z",
+                      "createdBy": "Yulia Fursa"
+                    }
+                  },
+                  {
+                    "sortCode": "07-01-16",
+                    "accountNumber": "00021785",
+                    "accountName": "SERENA AKSU",
+                    "instalmentNumber": 3,
+                    "mandateReference": "0000000000509601",
+                    "dueDate": "2021-05-19T00:00:00.000Z",
+                    "amount": 5008,
+                    "instalmentStatus": "Live",
+                    "metadata": {
+                      "createdAt": "2021-03-11T15:10:24.203Z",
+                      "createdBy": "y.fursa"
+                    }
+                  }
+                ]
+              },
+              {
+                "metadata": {
+                  "createdAt": "2021-03-11T15:10:24.203Z",
+                  "createdBy": "y.fursa"
+                },
+                "instalmentNumber": 4,
+                "dueDate": "2021-06-19T00:00:00.000Z",
+                "amount": 5008,
+                "instalmentStatus": "Live",
+                "numberOfDefaults": 0,
+                "instalmentReference": "000000000050960104",
+                "instalmentHistory": [
+                  {
+                    "sortCode": "07-01-16",
+                    "accountNumber": "00021785",
+                    "accountName": "SERENA AKSU",
+                    "instalmentNumber": 4,
+                    "mandateReference": "0000000000509601",
+                    "dueDate": "2021-06-19T00:00:00.000Z",
+                    "amount": 4131,
+                    "instalmentStatus": "Live",
+                    "metadata": {
+                      "createdAt": "2021-03-11T14:38:05.585Z",
+                      "createdBy": "Yulia Fursa"
+                    }
+                  },
+                  {
+                    "sortCode": "07-01-16",
+                    "accountNumber": "00021785",
+                    "accountName": "SERENA AKSU",
+                    "instalmentNumber": 4,
+                    "mandateReference": "0000000000509601",
+                    "dueDate": "2021-06-19T00:00:00.000Z",
+                    "amount": 5008,
+                    "instalmentStatus": "Live",
+                    "metadata": {
+                      "createdAt": "2021-03-11T15:10:24.203Z",
+                      "createdBy": "y.fursa"
+                    }
+                  }
+                ]
+              },
+              {
+                "metadata": {
+                  "createdAt": "2021-03-11T15:10:24.203Z",
+                  "createdBy": "y.fursa"
+                },
+                "instalmentNumber": 5,
+                "dueDate": "2021-07-19T00:00:00.000Z",
+                "amount": 5008,
+                "instalmentStatus": "Live",
+                "numberOfDefaults": 0,
+                "instalmentReference": "000000000050960105",
+                "instalmentHistory": [
+                  {
+                    "sortCode": "07-01-16",
+                    "accountNumber": "00021785",
+                    "accountName": "SERENA AKSU",
+                    "instalmentNumber": 5,
+                    "mandateReference": "0000000000509601",
+                    "dueDate": "2021-07-19T00:00:00.000Z",
+                    "amount": 4131,
+                    "instalmentStatus": "Live",
+                    "metadata": {
+                      "createdAt": "2021-03-11T14:38:05.585Z",
+                      "createdBy": "Yulia Fursa"
+                    }
+                  },
+                  {
+                    "sortCode": "07-01-16",
+                    "accountNumber": "00021785",
+                    "accountName": "SERENA AKSU",
+                    "instalmentNumber": 5,
+                    "mandateReference": "0000000000509601",
+                    "dueDate": "2021-07-19T00:00:00.000Z",
+                    "amount": 5008,
+                    "instalmentStatus": "Live",
+                    "metadata": {
+                      "createdAt": "2021-03-11T15:10:24.203Z",
+                      "createdBy": "y.fursa"
+                    }
+                  }
+                ]
+              },
+              {
+                "metadata": {
+                  "createdAt": "2021-03-11T15:10:24.203Z",
+                  "createdBy": "y.fursa"
+                },
+                "instalmentNumber": 6,
+                "dueDate": "2021-08-19T00:00:00.000Z",
+                "amount": 5008,
+                "instalmentStatus": "Live",
+                "numberOfDefaults": 0,
+                "instalmentReference": "000000000050960106",
+                "instalmentHistory": [
+                  {
+                    "sortCode": "07-01-16",
+                    "accountNumber": "00021785",
+                    "accountName": "SERENA AKSU",
+                    "instalmentNumber": 6,
+                    "mandateReference": "0000000000509601",
+                    "dueDate": "2021-08-19T00:00:00.000Z",
+                    "amount": 4131,
+                    "instalmentStatus": "Live",
+                    "metadata": {
+                      "createdAt": "2021-03-11T14:38:05.585Z",
+                      "createdBy": "Yulia Fursa"
+                    }
+                  },
+                  {
+                    "sortCode": "07-01-16",
+                    "accountNumber": "00021785",
+                    "accountName": "SERENA AKSU",
+                    "instalmentNumber": 6,
+                    "mandateReference": "0000000000509601",
+                    "dueDate": "2021-08-19T00:00:00.000Z",
+                    "amount": 5008,
+                    "instalmentStatus": "Live",
+                    "metadata": {
+                      "createdAt": "2021-03-11T15:10:24.203Z",
+                      "createdBy": "y.fursa"
+                    }
+                  }
+                ]
+              },
+              {
+                "metadata": {
+                  "createdAt": "2021-03-11T15:10:24.203Z",
+                  "createdBy": "y.fursa"
+                },
+                "instalmentNumber": 7,
+                "dueDate": "2021-09-19T00:00:00.000Z",
+                "amount": 5008,
+                "instalmentStatus": "Live",
+                "numberOfDefaults": 0,
+                "instalmentReference": "000000000050960107",
+                "instalmentHistory": [
+                  {
+                    "sortCode": "07-01-16",
+                    "accountNumber": "00021785",
+                    "accountName": "SERENA AKSU",
+                    "instalmentNumber": 7,
+                    "mandateReference": "0000000000509601",
+                    "dueDate": "2021-09-19T00:00:00.000Z",
+                    "amount": 4131,
+                    "instalmentStatus": "Live",
+                    "metadata": {
+                      "createdAt": "2021-03-11T14:38:05.585Z",
+                      "createdBy": "Yulia Fursa"
+                    }
+                  },
+                  {
+                    "sortCode": "07-01-16",
+                    "accountNumber": "00021785",
+                    "accountName": "SERENA AKSU",
+                    "instalmentNumber": 7,
+                    "mandateReference": "0000000000509601",
+                    "dueDate": "2021-09-19T00:00:00.000Z",
+                    "amount": 5008,
+                    "instalmentStatus": "Live",
+                    "metadata": {
+                      "createdAt": "2021-03-11T15:10:24.203Z",
+                      "createdBy": "y.fursa"
+                    }
+                  }
+                ]
+              },
+              {
+                "metadata": {
+                  "createdAt": "2021-03-11T15:10:24.203Z",
+                  "createdBy": "y.fursa"
+                },
+                "instalmentNumber": 8,
+                "dueDate": "2021-10-19T00:00:00.000Z",
+                "amount": 5008,
+                "instalmentStatus": "Live",
+                "numberOfDefaults": 0,
+                "instalmentReference": "000000000050960108",
+                "instalmentHistory": [
+                  {
+                    "sortCode": "07-01-16",
+                    "accountNumber": "00021785",
+                    "accountName": "SERENA AKSU",
+                    "instalmentNumber": 8,
+                    "mandateReference": "0000000000509601",
+                    "dueDate": "2021-10-19T00:00:00.000Z",
+                    "amount": 4131,
+                    "instalmentStatus": "Live",
+                    "metadata": {
+                      "createdAt": "2021-03-11T14:38:05.585Z",
+                      "createdBy": "Yulia Fursa"
+                    }
+                  },
+                  {
+                    "sortCode": "07-01-16",
+                    "accountNumber": "00021785",
+                    "accountName": "SERENA AKSU",
+                    "instalmentNumber": 8,
+                    "mandateReference": "0000000000509601",
+                    "dueDate": "2021-10-19T00:00:00.000Z",
+                    "amount": 5008,
+                    "instalmentStatus": "Live",
+                    "metadata": {
+                      "createdAt": "2021-03-11T15:10:24.203Z",
+                      "createdBy": "y.fursa"
+                    }
+                  }
+                ]
+              },
+              {
+                "metadata": {
+                  "createdAt": "2021-03-11T15:10:24.203Z",
+                  "createdBy": "y.fursa"
+                },
+                "instalmentNumber": 9,
+                "dueDate": "2021-11-19T00:00:00.000Z",
+                "amount": 5008,
+                "instalmentStatus": "Live",
+                "numberOfDefaults": 0,
+                "instalmentReference": "000000000050960109",
+                "instalmentHistory": [
+                  {
+                    "sortCode": "07-01-16",
+                    "accountNumber": "00021785",
+                    "accountName": "SERENA AKSU",
+                    "instalmentNumber": 9,
+                    "mandateReference": "0000000000509601",
+                    "dueDate": "2021-11-19T00:00:00.000Z",
+                    "amount": 4131,
+                    "instalmentStatus": "Live",
+                    "metadata": {
+                      "createdAt": "2021-03-11T14:38:05.585Z",
+                      "createdBy": "Yulia Fursa"
+                    }
+                  },
+                  {
+                    "sortCode": "07-01-16",
+                    "accountNumber": "00021785",
+                    "accountName": "SERENA AKSU",
+                    "instalmentNumber": 9,
+                    "mandateReference": "0000000000509601",
+                    "dueDate": "2021-11-19T00:00:00.000Z",
+                    "amount": 5008,
+                    "instalmentStatus": "Live",
+                    "metadata": {
+                      "createdAt": "2021-03-11T15:10:24.203Z",
+                      "createdBy": "y.fursa"
+                    }
+                  }
+                ]
+              },
+              {
+                "metadata": {
+                  "createdAt": "2021-03-11T15:10:24.203Z",
+                  "createdBy": "y.fursa"
+                },
+                "instalmentNumber": 10,
+                "dueDate": "2021-12-19T00:00:00.000Z",
+                "amount": 5008,
+                "instalmentStatus": "Live",
+                "numberOfDefaults": 0,
+                "instalmentReference": "000000000050960110",
+                "instalmentHistory": [
+                  {
+                    "sortCode": "07-01-16",
+                    "accountNumber": "00021785",
+                    "accountName": "SERENA AKSU",
+                    "instalmentNumber": 10,
+                    "mandateReference": "0000000000509601",
+                    "dueDate": "2021-12-19T00:00:00.000Z",
+                    "amount": 4131,
+                    "instalmentStatus": "Live",
+                    "metadata": {
+                      "createdAt": "2021-03-11T14:38:05.585Z",
+                      "createdBy": "Yulia Fursa"
+                    }
+                  },
+                  {
+                    "sortCode": "07-01-16",
+                    "accountNumber": "00021785",
+                    "accountName": "SERENA AKSU",
+                    "instalmentNumber": 10,
+                    "mandateReference": "0000000000509601",
+                    "dueDate": "2021-12-19T00:00:00.000Z",
+                    "amount": 5008,
+                    "instalmentStatus": "Live",
+                    "metadata": {
+                      "createdAt": "2021-03-11T15:10:24.203Z",
+                      "createdBy": "y.fursa"
+                    }
+                  }
+                ]
+              },
+              {
+                "metadata": {
+                  "createdAt": "2021-03-11T15:10:24.203Z",
+                  "createdBy": "y.fursa"
+                },
+                "instalmentNumber": 11,
+                "dueDate": "2022-01-19T00:00:00.000Z",
+                "amount": 5008,
+                "instalmentStatus": "Live",
+                "numberOfDefaults": 0,
+                "instalmentReference": "000000000050960111",
+                "instalmentHistory": [
+                  {
+                    "sortCode": "07-01-16",
+                    "accountNumber": "00021785",
+                    "accountName": "SERENA AKSU",
+                    "instalmentNumber": 11,
+                    "mandateReference": "0000000000509601",
+                    "dueDate": "2022-01-19T00:00:00.000Z",
+                    "amount": 4131,
+                    "instalmentStatus": "Live",
+                    "metadata": {
+                      "createdAt": "2021-03-11T14:38:05.585Z",
+                      "createdBy": "Yulia Fursa"
+                    }
+                  },
+                  {
+                    "sortCode": "07-01-16",
+                    "accountNumber": "00021785",
+                    "accountName": "SERENA AKSU",
+                    "instalmentNumber": 11,
+                    "mandateReference": "0000000000509601",
+                    "dueDate": "2022-01-19T00:00:00.000Z",
+                    "amount": 5008,
+                    "instalmentStatus": "Live",
+                    "metadata": {
+                      "createdAt": "2021-03-11T15:10:24.203Z",
+                      "createdBy": "y.fursa"
+                    }
+                  }
+                ]
+              }
+            ],
+            "tenant": {
+              "brandId": "BR0018",
+              "productId": "PMC"
+            },
+            "externalReferences": [
+              {
+                "referenceName": "policyTermReference",
+                "referenceValue": "48b5d14c-a268-4995-b346-350ed7d427b7"
+              }
+            ],
+            "planHistory": [
+              {
+                "planStatus": "Live",
+                "instalmentDay": 19,
+                "firstInstalmentAmount": 4131,
+                "regularInstalmentAmount": 4131,
+                "creationDate": "2021-03-11",
+                "depositAmount": 10000,
+                "dailyInterestAmount": 15,
+                "interestAmount": 5441,
+                "loanAmount": 40000,
+                "paymentPlanModel": {
+                  "modelId": "2e6a6e8a-390a-4565-bffa-03b80a234cb3",
+                  "modelName": "Vitality First Term Direct Debit",
+                  "modelType": "InstalmentPlanModel",
+                  "defaultModel": true,
+                  "tenant": {
+                    "brandId": "BR0018",
+                    "productId": "PMC"
+                  },
+                  "loanType": "RACA",
+                  "isActive": true,
+                  "interestPercentage": 13.6,
+                  "apr": 29.9,
+                  "numberOfInstalments": 11,
+                  "firstInstalmentOffset": 6,
+                  "depositPercentage": 20,
+                  "reapplicationDays": 5,
+                  "isFirstTerm": true
+                },
+                "totalAmountOfCredit": 45441,
+                "totalAmountToPay": 55441,
+                "metadata": {
+                  "createdAt": "2021-03-11T14:38:05.585Z",
+                  "createdBy": "Yulia Fursa"
+                },
+                "externalReferences": [
+                  {
+                    "referenceName": "policyTermReference",
+                    "referenceValue": "48b5d14c-a268-4995-b346-350ed7d427b7"
+                  }
+                ]
+              },
+              {
+                "planStatus": "Live",
+                "instalmentDay": 19,
+                "firstInstalmentAmount": 4131,
+                "regularInstalmentAmount": 4131,
+                "creationDate": "2021-03-11",
+                "depositAmount": 10000,
+                "dailyInterestAmount": 15,
+                "interestAmount": 6594,
+                "loanAmount": 48500,
+                "paymentPlanModel": {
+                  "modelId": "2e6a6e8a-390a-4565-bffa-03b80a234cb3",
+                  "modelName": "Vitality First Term Direct Debit",
+                  "modelType": "InstalmentPlanModel",
+                  "defaultModel": true,
+                  "tenant": {
+                    "brandId": "BR0018",
+                    "productId": "PMC"
+                  },
+                  "loanType": "RACA",
+                  "isActive": true,
+                  "interestPercentage": 13.6,
+                  "apr": 29.9,
+                  "numberOfInstalments": 11,
+                  "firstInstalmentOffset": 6,
+                  "depositPercentage": 20,
+                  "reapplicationDays": 5,
+                  "isFirstTerm": true
+                },
+                "totalAmountOfCredit": 55094,
+                "totalAmountToPay": 65094,
+                "metadata": {
+                  "createdAt": "2021-03-11T15:10:24.203Z",
+                  "createdBy": "y.fursa"
+                },
+                "externalReferences": [
+                  {
+                    "referenceName": "policyTermReference",
+                    "referenceValue": "48b5d14c-a268-4995-b346-350ed7d427b7"
+                  }
+                ]
+              }
+            ],
+            "surplusAmount": 0,
+            "noticePeriod": 5
+          }
+        ],
+        "bankDetails": {
+          "metadata": {
+            "createdAt": "2021-03-11T14:38:05.722Z",
+            "createdBy": "Yulia Fursa"
+          },
+          "bankDetailsId": "70033641-9031-42c1-a2a8-43e0fe1142e7",
+          "planId": "4e05d4ee-5f67-4cbb-a7f9-bcc68149ba83",
+          "accountNumber": "00021785",
+          "sortCode": "07-01-16",
+          "accountName": "SERENA AKSU",
+          "bankCode": "",
+          "bankName": "",
+          "bankBranchTitle": "",
+          "mandateReference": "0000000000509601",
+          "lastModified": "2021-03-11T14:38:05.722Z",
+          "mandateSequence": "01",
+          "mandateStatus": "NotStarted",
+          "tenant": {
+            "brandId": "BR0018",
+            "productId": "PMC"
+          },
+          "bankDetailsHistory": [
+            {
+              "metadata": {
+                "createdAt": "2021-03-11T14:37:32.577Z"
+              },
+              "externalReferences": [
+
+              ],
+              "mandateStatus": "NotStarted"
+            },
+            {
+              "metadata": {
+                "createdAt": "2021-03-11T14:38:05.722Z",
+                "createdBy": "Yulia Fursa"
+              },
+              "externalReferences": [
+                {
+                  "referenceName": "policyTermReference",
+                  "referenceValue": "48b5d14c-a268-4995-b346-350ed7d427b7"
+                }
+              ],
+              "mandateStatus": "NotStarted"
+            }
+          ],
+          "externalReferences": [
+            {
+              "referenceName": "policyTermReference",
+              "referenceValue": "48b5d14c-a268-4995-b346-350ed7d427b7"
+            }
+          ]
+        }
+      },
+      "payments": [
+        {
+          "isRefund": false,
+          "isThirdPartyPayer": false,
+          "transactionDate": "2021-03-11T14:38:04.000Z",
+          "value": 10000,
+          "currency": "GBP",
+          "preAuthorise": true,
+          "paymentMethod": "card",
+          "status": "Payment success",
+          "provider": "stripe",
+          "paymentIntentsId": "pi_1ITpeJClEhTGA1uhG4GaqReg",
+          "contact": {
+            "person": {
+              "firstNames": "Serena",
+              "lastName": "Aksu"
+            },
+            "postalAddress": {
+              "addressReference": "GB|RM|A|230396",
+              "addressLine1": "66 Thirlestane, Lemsford Road",
+              "addressLine2": "",
+              "addressLine3": "",
+              "buildingName": "Thirlestane",
+              "buildingNumber": "",
+              "subBuilding": "66",
+              "companyName": "",
+              "constituency": "Hertfordshire",
+              "county": "Hertfordshire",
+              "dataLevel": "Premise",
+              "district": "",
+              "poBoxNumber": "",
+              "label": "66 Thirlestane\nLemsford Road\nST. ALBANS\nAL1 3PD\nUNITED KINGDOM",
+              "postcode": "AL1 3PD",
+              "street": "Lemsford Road",
+              "secondaryStreet": "",
+              "townCity": "St. Albans",
+              "buildingType": "Residential",
+              "UDPRN": "00230396"
+            }
+          },
+          "externalReferences": [
+            {
+              "referenceName": "policyTermReference",
+              "referenceValue": "48b5d14c-a268-4995-b346-350ed7d427b7"
+            }
+          ],
+          "isViaTelephony": true,
+          "metadata": {
+            "createdBy": "Yulia Fursa",
+            "createdAt": "2021-03-11T14:38:07.041Z"
+          },
+          "paymentReference": "2059971d-136c-49c5-aa28-3baa041728c4",
+          "reason": "New Business - deposit",
+          "authorizationCode": "123456",
+          "card": {
+            "fingerprint": "0Tr0yfNeYOpqnkxg",
+            "last4": "1111",
+            "brand": "visa",
+            "expiry": "05/2022"
+          },
+          "cardToken": "pm_1ITpeJClEhTGA1uh7E7pEmcA",
+          "processedDate": "2021-03-11T14:38:07.041Z"
+        }
+      ],
+      "isPaidInFull": false
+    },
+    "policyNumber": "8A/21070/000B8",
+    "policyReference": "315ceb73-3b8e-487b-9fbe-efd8384b8893",
+    "policyStatus": "Live",
+    "policyTermReference": "48b5d14c-a268-4995-b346-350ed7d427b7",
+    "premiumAdjustments": [
+      {
+        "externalReference": "33f784c1-c69f-425a-9e31-c3843b926083",
+        "netPremiumAdjustment": 0,
+        "marginAdjustment": 0,
+        "premiumAdjustmentExcludingIPT": 4464,
+        "premiumAdjustmentIncludingIPT": 5000,
+        "taxAdjustment": {
+          "rate": 0.12,
+          "taxType": {
+            "id": "ea799e9d-8fa4-4337-8306-094f510be017",
+            "code": "IPT",
+            "description": "Insurance Premium Tax",
+            "listName": "TaxType",
+            "listSource": "Iotatech"
+          },
+          "taxValue": 536
+        }
+      }
+    ]
+  },
+  "event": "POLICY_MIDTERMADJUSTED",
+  "schemaVersion": null,
+  "source": "iotatech.policy.service",
+  "correlation": null,
+  "eventId": "06ea0613-34c5-4d39-a7c4-80de1802e06f",
+  "timestamp": "2021-03-11T15:10:27.099",
+  "expiry": null,
+  "filter": null
+}

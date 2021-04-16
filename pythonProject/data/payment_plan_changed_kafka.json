@@ -1,0 +1,688 @@
+{
+   "payload": {
+      "policyTermReference": "5H46242L48",
+      "paymentPlan": {
+         "metadata": {
+            "createdAt": "2021-03-18T16:20:46.668Z",
+            "createdBy": "IntegrationTests"
+         },
+         "planId": "af7cb542-f0c9-4763-a47b-67581bc7b3ff",
+         "planStatus": "Live",
+         "mandateHistory": [],
+         "instalmentDay": 12,
+         "firstInstalmentAmount": 8262,
+         "regularInstalmentAmount": 8262,
+         "creationDate": "2021-03-18",
+         "depositAmount": 20000,
+         "dailyInterestAmount": 30,
+         "interestAmount": 10882,
+         "loanAmount": 80000,
+         "paymentPlanModel": {
+            "modelId": "2e6a6e8a-390a-4565-bffa-03b80a234cb3",
+            "modelName": "Vitality First Term Direct Debit",
+            "modelType": "InstalmentPlanModel",
+            "defaultModel": true,
+            "tenant": {
+               "brandId": "BR0018",
+               "productId": "PMC"
+            },
+            "loanType": "RACA",
+            "isActive": true,
+            "interestPercentage": 13.6,
+            "apr": 29.9,
+            "numberOfInstalments": 11,
+            "firstInstalmentOffset": 6,
+            "depositPercentage": 20,
+            "reapplicationDays": 5,
+            "isFirstTerm": true
+         },
+         "totalAmountOfCredit": 90882,
+         "totalAmountToPay": 110882,
+         "instalments": [
+            {
+               "metadata": {
+                  "createdAt": "2021-03-19T09:13:48.753Z",
+                  "createdBy": "Bacs"
+               },
+               "instalmentNumber": 1,
+               "dueDate": "2021-04-12T00:00:00.000Z",
+               "amount": 8262,
+               "instalmentStatus": "Live",
+               "statusReason": null,
+               "numberOfDefaults": 0,
+               "instalmentReference": "000000000052860101",
+               "requestedDate": null,
+               "processedDate": null,
+               "instalmentHistory": [
+                  {
+                     "sortCode": "07-01-16",
+                     "accountNumber": "00003036",
+                     "accountName": "Mr Ashely Marma",
+                     "instalmentNumber": 1,
+                     "mandateReference": "0000000000528601",
+                     "dueDate": "2021-04-12T00:00:00.000Z",
+                     "requestedDate": null,
+                     "processedDate": null,
+                     "amount": 8262,
+                     "instalmentStatus": "Live",
+                     "instalmentStatusReason": null,
+                     "metadata": {
+                        "createdAt": "2021-03-18T16:20:46.668Z",
+                        "createdBy": "IntegrationTests"
+                     }
+                  },
+                  {
+                     "sortCode": "07-01-16",
+                     "accountNumber": "00003036",
+                     "accountName": "Mr Ashely Marma",
+                     "instalmentNumber": 1,
+                     "mandateReference": "0000000000528601",
+                     "dueDate": "2021-04-12T00:00:00.000Z",
+                     "requestedDate": null,
+                     "processedDate": null,
+                     "amount": 8262,
+                     "instalmentStatus": "Live",
+                     "instalmentStatusReason": null,
+                     "metadata": {
+                        "createdAt": "2021-03-19T09:13:48.753Z",
+                        "createdBy": "Bacs"
+                     }
+                  }
+               ]
+            },
+            {
+               "metadata": {
+                  "createdAt": "2021-03-19T09:13:48.753Z",
+                  "createdBy": "Bacs"
+               },
+               "instalmentNumber": 2,
+               "dueDate": "2021-05-12T00:00:00.000Z",
+               "amount": 8262,
+               "instalmentStatus": "Live",
+               "statusReason": null,
+               "numberOfDefaults": 0,
+               "instalmentReference": "000000000052860102",
+               "requestedDate": null,
+               "processedDate": null,
+               "instalmentHistory": [
+                  {
+                     "sortCode": "07-01-16",
+                     "accountNumber": "00003036",
+                     "accountName": "Mr Ashely Marma",
+                     "instalmentNumber": 2,
+                     "mandateReference": "0000000000528601",
+                     "dueDate": "2021-05-12T00:00:00.000Z",
+                     "requestedDate": null,
+                     "processedDate": null,
+                     "amount": 8262,
+                     "instalmentStatus": "Live",
+                     "instalmentStatusReason": null,
+                     "metadata": {
+                        "createdAt": "2021-03-18T16:20:46.668Z",
+                        "createdBy": "IntegrationTests"
+                     }
+                  },
+                  {
+                     "sortCode": "07-01-16",
+                     "accountNumber": "00003036",
+                     "accountName": "Mr Ashely Marma",
+                     "instalmentNumber": 2,
+                     "mandateReference": "0000000000528601",
+                     "dueDate": "2021-05-12T00:00:00.000Z",
+                     "requestedDate": null,
+                     "processedDate": null,
+                     "amount": 8262,
+                     "instalmentStatus": "Live",
+                     "instalmentStatusReason": null,
+                     "metadata": {
+                        "createdAt": "2021-03-19T09:13:48.753Z",
+                        "createdBy": "Bacs"
+                     }
+                  }
+               ]
+            },
+            {
+               "metadata": {
+                  "createdAt": "2021-03-19T09:13:48.753Z",
+                  "createdBy": "Bacs"
+               },
+               "instalmentNumber": 3,
+               "dueDate": "2021-06-12T00:00:00.000Z",
+               "amount": 8262,
+               "instalmentStatus": "Live",
+               "statusReason": null,
+               "numberOfDefaults": 0,
+               "instalmentReference": "000000000052860103",
+               "requestedDate": null,
+               "processedDate": null,
+               "instalmentHistory": [
+                  {
+                     "sortCode": "07-01-16",
+                     "accountNumber": "00003036",
+                     "accountName": "Mr Ashely Marma",
+                     "instalmentNumber": 3,
+                     "mandateReference": "0000000000528601",
+                     "dueDate": "2021-06-12T00:00:00.000Z",
+                     "requestedDate": null,
+                     "processedDate": null,
+                     "amount": 8262,
+                     "instalmentStatus": "Live",
+                     "instalmentStatusReason": null,
+                     "metadata": {
+                        "createdAt": "2021-03-18T16:20:46.668Z",
+                        "createdBy": "IntegrationTests"
+                     }
+                  },
+                  {
+                     "sortCode": "07-01-16",
+                     "accountNumber": "00003036",
+                     "accountName": "Mr Ashely Marma",
+                     "instalmentNumber": 3,
+                     "mandateReference": "0000000000528601",
+                     "dueDate": "2021-06-12T00:00:00.000Z",
+                     "requestedDate": null,
+                     "processedDate": null,
+                     "amount": 8262,
+                     "instalmentStatus": "Live",
+                     "instalmentStatusReason": null,
+                     "metadata": {
+                        "createdAt": "2021-03-19T09:13:48.753Z",
+                        "createdBy": "Bacs"
+                     }
+                  }
+               ]
+            },
+            {
+               "metadata": {
+                  "createdAt": "2021-03-19T09:13:48.753Z",
+                  "createdBy": "Bacs"
+               },
+               "instalmentNumber": 4,
+               "dueDate": "2021-07-12T00:00:00.000Z",
+               "amount": 8262,
+               "instalmentStatus": "Live",
+               "statusReason": null,
+               "numberOfDefaults": 0,
+               "instalmentReference": "000000000052860104",
+               "requestedDate": null,
+               "processedDate": null,
+               "instalmentHistory": [
+                  {
+                     "sortCode": "07-01-16",
+                     "accountNumber": "00003036",
+                     "accountName": "Mr Ashely Marma",
+                     "instalmentNumber": 4,
+                     "mandateReference": "0000000000528601",
+                     "dueDate": "2021-07-12T00:00:00.000Z",
+                     "requestedDate": null,
+                     "processedDate": null,
+                     "amount": 8262,
+                     "instalmentStatus": "Live",
+                     "instalmentStatusReason": null,
+                     "metadata": {
+                        "createdAt": "2021-03-18T16:20:46.668Z",
+                        "createdBy": "IntegrationTests"
+                     }
+                  },
+                  {
+                     "sortCode": "07-01-16",
+                     "accountNumber": "00003036",
+                     "accountName": "Mr Ashely Marma",
+                     "instalmentNumber": 4,
+                     "mandateReference": "0000000000528601",
+                     "dueDate": "2021-07-12T00:00:00.000Z",
+                     "requestedDate": null,
+                     "processedDate": null,
+                     "amount": 8262,
+                     "instalmentStatus": "Live",
+                     "instalmentStatusReason": null,
+                     "metadata": {
+                        "createdAt": "2021-03-19T09:13:48.753Z",
+                        "createdBy": "Bacs"
+                     }
+                  }
+               ]
+            },
+            {
+               "metadata": {
+                  "createdAt": "2021-03-19T09:13:48.753Z",
+                  "createdBy": "Bacs"
+               },
+               "instalmentNumber": 5,
+               "dueDate": "2021-08-12T00:00:00.000Z",
+               "amount": 8262,
+               "instalmentStatus": "Live",
+               "statusReason": null,
+               "numberOfDefaults": 0,
+               "instalmentReference": "000000000052860105",
+               "requestedDate": null,
+               "processedDate": null,
+               "instalmentHistory": [
+                  {
+                     "sortCode": "07-01-16",
+                     "accountNumber": "00003036",
+                     "accountName": "Mr Ashely Marma",
+                     "instalmentNumber": 5,
+                     "mandateReference": "0000000000528601",
+                     "dueDate": "2021-08-12T00:00:00.000Z",
+                     "requestedDate": null,
+                     "processedDate": null,
+                     "amount": 8262,
+                     "instalmentStatus": "Live",
+                     "instalmentStatusReason": null,
+                     "metadata": {
+                        "createdAt": "2021-03-18T16:20:46.668Z",
+                        "createdBy": "IntegrationTests"
+                     }
+                  },
+                  {
+                     "sortCode": "07-01-16",
+                     "accountNumber": "00003036",
+                     "accountName": "Mr Ashely Marma",
+                     "instalmentNumber": 5,
+                     "mandateReference": "0000000000528601",
+                     "dueDate": "2021-08-12T00:00:00.000Z",
+                     "requestedDate": null,
+                     "processedDate": null,
+                     "amount": 8262,
+                     "instalmentStatus": "Live",
+                     "instalmentStatusReason": null,
+                     "metadata": {
+                        "createdAt": "2021-03-19T09:13:48.753Z",
+                        "createdBy": "Bacs"
+                     }
+                  }
+               ]
+            },
+            {
+               "metadata": {
+                  "createdAt": "2021-03-19T09:13:48.753Z",
+                  "createdBy": "Bacs"
+               },
+               "instalmentNumber": 6,
+               "dueDate": "2021-09-12T00:00:00.000Z",
+               "amount": 8262,
+               "instalmentStatus": "Live",
+               "statusReason": null,
+               "numberOfDefaults": 0,
+               "instalmentReference": "000000000052860106",
+               "requestedDate": null,
+               "processedDate": null,
+               "instalmentHistory": [
+                  {
+                     "sortCode": "07-01-16",
+                     "accountNumber": "00003036",
+                     "accountName": "Mr Ashely Marma",
+                     "instalmentNumber": 6,
+                     "mandateReference": "0000000000528601",
+                     "dueDate": "2021-09-12T00:00:00.000Z",
+                     "requestedDate": null,
+                     "processedDate": null,
+                     "amount": 8262,
+                     "instalmentStatus": "Live",
+                     "instalmentStatusReason": null,
+                     "metadata": {
+                        "createdAt": "2021-03-18T16:20:46.668Z",
+                        "createdBy": "IntegrationTests"
+                     }
+                  },
+                  {
+                     "sortCode": "07-01-16",
+                     "accountNumber": "00003036",
+                     "accountName": "Mr Ashely Marma",
+                     "instalmentNumber": 6,
+                     "mandateReference": "0000000000528601",
+                     "dueDate": "2021-09-12T00:00:00.000Z",
+                     "requestedDate": null,
+                     "processedDate": null,
+                     "amount": 8262,
+                     "instalmentStatus": "Live",
+                     "instalmentStatusReason": null,
+                     "metadata": {
+                        "createdAt": "2021-03-19T09:13:48.753Z",
+                        "createdBy": "Bacs"
+                     }
+                  }
+               ]
+            },
+            {
+               "metadata": {
+                  "createdAt": "2021-03-19T09:13:48.753Z",
+                  "createdBy": "Bacs"
+               },
+               "instalmentNumber": 7,
+               "dueDate": "2021-10-12T00:00:00.000Z",
+               "amount": 8262,
+               "instalmentStatus": "Live",
+               "statusReason": null,
+               "numberOfDefaults": 0,
+               "instalmentReference": "000000000052860107",
+               "requestedDate": null,
+               "processedDate": null,
+               "instalmentHistory": [
+                  {
+                     "sortCode": "07-01-16",
+                     "accountNumber": "00003036",
+                     "accountName": "Mr Ashely Marma",
+                     "instalmentNumber": 7,
+                     "mandateReference": "0000000000528601",
+                     "dueDate": "2021-10-12T00:00:00.000Z",
+                     "requestedDate": null,
+                     "processedDate": null,
+                     "amount": 8262,
+                     "instalmentStatus": "Live",
+                     "instalmentStatusReason": null,
+                     "metadata": {
+                        "createdAt": "2021-03-18T16:20:46.668Z",
+                        "createdBy": "IntegrationTests"
+                     }
+                  },
+                  {
+                     "sortCode": "07-01-16",
+                     "accountNumber": "00003036",
+                     "accountName": "Mr Ashely Marma",
+                     "instalmentNumber": 7,
+                     "mandateReference": "0000000000528601",
+                     "dueDate": "2021-10-12T00:00:00.000Z",
+                     "requestedDate": null,
+                     "processedDate": null,
+                     "amount": 8262,
+                     "instalmentStatus": "Live",
+                     "instalmentStatusReason": null,
+                     "metadata": {
+                        "createdAt": "2021-03-19T09:13:48.753Z",
+                        "createdBy": "Bacs"
+                     }
+                  }
+               ]
+            },
+            {
+               "metadata": {
+                  "createdAt": "2021-03-19T09:13:48.753Z",
+                  "createdBy": "Bacs"
+               },
+               "instalmentNumber": 8,
+               "dueDate": "2021-11-12T00:00:00.000Z",
+               "amount": 8262,
+               "instalmentStatus": "Live",
+               "statusReason": null,
+               "numberOfDefaults": 0,
+               "instalmentReference": "000000000052860108",
+               "requestedDate": null,
+               "processedDate": null,
+               "instalmentHistory": [
+                  {
+                     "sortCode": "07-01-16",
+                     "accountNumber": "00003036",
+                     "accountName": "Mr Ashely Marma",
+                     "instalmentNumber": 8,
+                     "mandateReference": "0000000000528601",
+                     "dueDate": "2021-11-12T00:00:00.000Z",
+                     "requestedDate": null,
+                     "processedDate": null,
+                     "amount": 8262,
+                     "instalmentStatus": "Live",
+                     "instalmentStatusReason": null,
+                     "metadata": {
+                        "createdAt": "2021-03-18T16:20:46.668Z",
+                        "createdBy": "IntegrationTests"
+                     }
+                  },
+                  {
+                     "sortCode": "07-01-16",
+                     "accountNumber": "00003036",
+                     "accountName": "Mr Ashely Marma",
+                     "instalmentNumber": 8,
+                     "mandateReference": "0000000000528601",
+                     "dueDate": "2021-11-12T00:00:00.000Z",
+                     "requestedDate": null,
+                     "processedDate": null,
+                     "amount": 8262,
+                     "instalmentStatus": "Live",
+                     "instalmentStatusReason": null,
+                     "metadata": {
+                        "createdAt": "2021-03-19T09:13:48.753Z",
+                        "createdBy": "Bacs"
+                     }
+                  }
+               ]
+            },
+            {
+               "metadata": {
+                  "createdAt": "2021-03-19T09:13:48.753Z",
+                  "createdBy": "Bacs"
+               },
+               "instalmentNumber": 9,
+               "dueDate": "2021-12-12T00:00:00.000Z",
+               "amount": 8262,
+               "instalmentStatus": "Live",
+               "statusReason": null,
+               "numberOfDefaults": 0,
+               "instalmentReference": "000000000052860109",
+               "requestedDate": null,
+               "processedDate": null,
+               "instalmentHistory": [
+                  {
+                     "sortCode": "07-01-16",
+                     "accountNumber": "00003036",
+                     "accountName": "Mr Ashely Marma",
+                     "instalmentNumber": 9,
+                     "mandateReference": "0000000000528601",
+                     "dueDate": "2021-12-12T00:00:00.000Z",
+                     "requestedDate": null,
+                     "processedDate": null,
+                     "amount": 8262,
+                     "instalmentStatus": "Live",
+                     "instalmentStatusReason": null,
+                     "metadata": {
+                        "createdAt": "2021-03-18T16:20:46.668Z",
+                        "createdBy": "IntegrationTests"
+                     }
+                  },
+                  {
+                     "sortCode": "07-01-16",
+                     "accountNumber": "00003036",
+                     "accountName": "Mr Ashely Marma",
+                     "instalmentNumber": 9,
+                     "mandateReference": "0000000000528601",
+                     "dueDate": "2021-12-12T00:00:00.000Z",
+                     "requestedDate": null,
+                     "processedDate": null,
+                     "amount": 8262,
+                     "instalmentStatus": "Live",
+                     "instalmentStatusReason": null,
+                     "metadata": {
+                        "createdAt": "2021-03-19T09:13:48.753Z",
+                        "createdBy": "Bacs"
+                     }
+                  }
+               ]
+            },
+            {
+               "metadata": {
+                  "createdAt": "2021-03-19T09:13:48.753Z",
+                  "createdBy": "Bacs"
+               },
+               "instalmentNumber": 10,
+               "dueDate": "2022-01-12T00:00:00.000Z",
+               "amount": 8262,
+               "instalmentStatus": "Live",
+               "statusReason": null,
+               "numberOfDefaults": 0,
+               "instalmentReference": "000000000052860110",
+               "requestedDate": null,
+               "processedDate": null,
+               "instalmentHistory": [
+                  {
+                     "sortCode": "07-01-16",
+                     "accountNumber": "00003036",
+                     "accountName": "Mr Ashely Marma",
+                     "instalmentNumber": 10,
+                     "mandateReference": "0000000000528601",
+                     "dueDate": "2022-01-12T00:00:00.000Z",
+                     "requestedDate": null,
+                     "processedDate": null,
+                     "amount": 8262,
+                     "instalmentStatus": "Live",
+                     "instalmentStatusReason": null,
+                     "metadata": {
+                        "createdAt": "2021-03-18T16:20:46.668Z",
+                        "createdBy": "IntegrationTests"
+                     }
+                  },
+                  {
+                     "sortCode": "07-01-16",
+                     "accountNumber": "00003036",
+                     "accountName": "Mr Ashely Marma",
+                     "instalmentNumber": 10,
+                     "mandateReference": "0000000000528601",
+                     "dueDate": "2022-01-12T00:00:00.000Z",
+                     "requestedDate": null,
+                     "processedDate": null,
+                     "amount": 8262,
+                     "instalmentStatus": "Live",
+                     "instalmentStatusReason": null,
+                     "metadata": {
+                        "createdAt": "2021-03-19T09:13:48.753Z",
+                        "createdBy": "Bacs"
+                     }
+                  }
+               ]
+            },
+            {
+               "metadata": {
+                  "createdAt": "2021-03-19T09:13:48.753Z",
+                  "createdBy": "Bacs"
+               },
+               "instalmentNumber": 11,
+               "dueDate": "2022-02-12T00:00:00.000Z",
+               "amount": 8262,
+               "instalmentStatus": "Live",
+               "statusReason": null,
+               "numberOfDefaults": 0,
+               "instalmentReference": "000000000052860111",
+               "requestedDate": null,
+               "processedDate": null,
+               "instalmentHistory": [
+                  {
+                     "sortCode": "07-01-16",
+                     "accountNumber": "00003036",
+                     "accountName": "Mr Ashely Marma",
+                     "instalmentNumber": 11,
+                     "mandateReference": "0000000000528601",
+                     "dueDate": "2022-02-12T00:00:00.000Z",
+                     "requestedDate": null,
+                     "processedDate": null,
+                     "amount": 8262,
+                     "instalmentStatus": "Live",
+                     "instalmentStatusReason": null,
+                     "metadata": {
+                        "createdAt": "2021-03-18T16:20:46.668Z",
+                        "createdBy": "IntegrationTests"
+                     }
+                  },
+                  {
+                     "sortCode": "07-01-16",
+                     "accountNumber": "00003036",
+                     "accountName": "Mr Ashely Marma",
+                     "instalmentNumber": 11,
+                     "mandateReference": "0000000000528601",
+                     "dueDate": "2022-02-12T00:00:00.000Z",
+                     "requestedDate": null,
+                     "processedDate": null,
+                     "amount": 8262,
+                     "instalmentStatus": "Live",
+                     "instalmentStatusReason": null,
+                     "metadata": {
+                        "createdAt": "2021-03-19T09:13:48.753Z",
+                        "createdBy": "Bacs"
+                     }
+                  }
+               ]
+            }
+         ],
+         "tenant": {
+            "brandId": "BR0018",
+            "productId": "PMC"
+         },
+         "externalReferences": [
+            {
+               "referenceName": "policyTermReference",
+               "referenceValue": "5H46242L48"
+            }
+         ],
+         "planHistory": [
+            {
+               "planStatus": "Live",
+               "instalmentDay": 12,
+               "firstInstalmentAmount": 8262,
+               "regularInstalmentAmount": 8262,
+               "creationDate": "2021-03-18",
+               "depositAmount": 20000,
+               "dailyInterestAmount": 30,
+               "interestAmount": 10882,
+               "loanAmount": 80000,
+               "paymentPlanModel": {
+                  "modelId": "2e6a6e8a-390a-4565-bffa-03b80a234cb3",
+                  "modelName": "Vitality First Term Direct Debit",
+                  "modelType": "InstalmentPlanModel",
+                  "defaultModel": true,
+                  "tenant": {
+                     "brandId": "BR0018",
+                     "productId": "PMC"
+                  },
+                  "loanType": "RACA",
+                  "isActive": true,
+                  "interestPercentage": 13.6,
+                  "apr": 29.9,
+                  "numberOfInstalments": 11,
+                  "firstInstalmentOffset": 6,
+                  "depositPercentage": 20,
+                  "reapplicationDays": 5,
+                  "isFirstTerm": true
+               },
+               "totalAmountOfCredit": 90882,
+               "totalAmountToPay": 110882,
+               "metadata": {
+                  "createdAt": "2021-03-18T16:20:46.668Z",
+                  "createdBy": "IntegrationTests"
+               },
+               "externalReferences": [
+                  {
+                     "referenceName": "policyTermReference",
+                     "referenceValue": "5H46242L48"
+                  }
+               ]
+            }
+         ],
+         "noticePeriod": 5
+      },
+      "_links": {
+         "Self": {
+            "href": "/payments/payment-plans/af7cb542-f0c9-4763-a47b-67581bc7b3ff"
+         }
+      }
+   },
+   "event": "PAYMENTS_PAYMENTPLAN_CHANGED",
+   "schemaVersion": "1.0.0",
+   "source": "Covea.InstalmentPlans.WebApi",
+   "correlation": {
+      "originatingActionId": "2a795dee455140a6839a299ceac98d40",
+      "transactionId": null,
+      "brandId": null,
+      "productId": null,
+      "serviceCallId": null,
+      "parentServiceCallId": null,
+      "handledEventId": null,
+      "exceptionReference": null
+   },
+   "eventId": "c95562f8-2470-4ad4-9c63-f9eef151fbd1",
+   "timestamp": "2021-03-19T09:13:48.9593029Z",
+   "expiry": null,
+   "filter": [
+      {
+         "name": "BRAND_ID",
+         "value": null
+      }
+   ]
+}

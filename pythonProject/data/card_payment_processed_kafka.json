@@ -1,0 +1,50 @@
+{
+   "event": "PAYMENTS_CARD_PAYMENT_PROCESSED",
+   "source": "covea.cardpayments.service",
+   "correlation": {
+      "serviceCallId": "430a5528-1250-4b1a-a103-2b3962d4af56",
+      "originatingActionId": "59aa0907-cdec-41bd-b0ec-e23e66706316",
+      "transactionId": "9dff6965-ca56-40fd-bdf8-8102ad326ca4"
+   },
+   "eventId": "bd109c34-5871-43d4-9fd3-cf73ff8a2ac2",
+   "timestamp": "2021-03-19T13:21:29.757Z",
+   "payload": {
+      "value": 16993,
+      "currency": "GBP",
+      "preAuthorise": true,
+      "paymentMethod": "card",
+      "externalReferences": [
+         {
+            "referenceName": "policyTermReference",
+            "referenceValue": "d65ebff1-6466-4fa3-9e3d-b0b37a2f75d4"
+         }
+      ],
+      "paymentIntentsId": "pi_1IWiGWBR9Jao4FQCV8nMjK59",
+      "transactionToken": "pi_1IWiGWBR9Jao4FQCV8nMjK59_secret_5A0xSqQx42F8oEob9o0N4i1IT",
+      "transactionDate": "2021-03-19T13:21:24.000Z",
+      "status": "Payment success",
+      "isViaTelephony": false,
+      "isRefund": false,
+      "paymentReference": "67d67ad0-f151-40ba-bb3a-128f59029fb0",
+      "metadata": {
+         "createdBy": "Api User ",
+         "createdAt": "2021-03-19T13:21:29.741Z"
+      },
+      "contact": {
+         "person": {}
+      },
+      "isThirdPartyPayer": false,
+      "reason": "New Business - deposit",
+      "authorizationCode": "123456",
+      "card": {
+         "fingerprint": "GkBJHgdQUdhOa2U3",
+         "last4": "4242",
+         "brand": "visa",
+         "expiry": "03/2023"
+      },
+      "cardToken": "pm_1IWiGWBR9Jao4FQCEt9XtTxV",
+      "errorCode": null,
+      "errorMessage": null,
+      "processedDate": "2021-03-19T13:21:29.741Z"
+   }
+}
